@@ -1,0 +1,111 @@
+{
+    "196": {
+        "ID": 196,
+        "Name": "Prefab_Building1",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": ["Building", "City"],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [-127.07662200927735, 16.929702758789064, 185.8386688232422]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [0.20000000298023225, 0.20000000298023225, 0.20000000298023225]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "RigidStaticCom",
+                "Properties": [
+                    {
+                        "Name": "RigidStaticCom/rigidPos",
+                        "Type": "vectore3",
+                        "RigidStaticCom/rigidPos": [-127.07662200927735, 16.929702758789064, 185.8386688232422]
+                    },
+                    {
+                        "Name": "RigidStaticCom/rigidScale",
+                        "Type": "vectore3",
+                        "RigidStaticCom/rigidScale": [12.1899995803833, 31.75, 12.010000228881836]
+                    },
+                    {
+                        "Name": "RigidStaticCom/rigidRot",
+                        "Type": "quat",
+                        "RigidStaticCom/rigidRot": [0.0, 0.0, 0.0, 1.0]
+                    },
+                    {
+                        "Name": "RigidStaticCom/staticFriction",
+                        "Type": "float",
+                        "RigidStaticCom/staticFriction": 0.0
+                    },
+                    {
+                        "Name": "RigidStaticCom/dynamicFriction",
+                        "Type": "float",
+                        "RigidStaticCom/dynamicFriction": 0.0
+                    },
+                    {
+                        "Name": "RigidStaticCom/restitution",
+                        "Type": "float",
+                        "RigidStaticCom/restitution": 0.0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": -107374176.0
+                    },
+                    {
+                        "Name": "MaterialCom/colour",
+                        "Type": "vectore3",
+                        "MaterialCom/colour": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "building_test1"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "forward_shader"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "building_test1"
+                    },
+                    {
+                        "Name": "MaterialCom/HSV",
+                        "Type": "vectore3",
+                        "MaterialCom/HSV": [1.0, 0.0, 1.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "uaScriptCom",
+                "Properties": [
+                    {
+                        "Name": "LuaScriptCom/mScriptPath",
+                        "Type": "string",
+                        "LuaScriptCom/mScriptPath": ".//Resources//Script\\BuildingBehaviour.lua"
+                    }
+                ]
+            }
+        ]
+    }
+}

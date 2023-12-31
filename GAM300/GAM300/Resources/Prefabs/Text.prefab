@@ -1,0 +1,41 @@
+{
+    "125": {
+        "ID": 125,
+        "Name": "Prefab_Text",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TextCom",
+                "Properties": [
+                    {
+                        "Name": "TextCom/TextName",
+                        "Type": "string",
+                        "TextCom/TextName": "Hello world"
+                    },
+                    {
+                        "Name": "TextCom/Colour",
+                        "Type": "vectore4",
+                        "TextCom/Colour": [1.0, 1.0, 1.0, 9.890000343322754]
+                    },
+                    {
+                        "Name": "TextCom/Size",
+                        "Type": "float",
+                        "TextCom/Size": 50.0
+                    },
+                    {
+                        "Name": "TextCom/Font",
+                        "Type": "string",
+                        "TextCom/Font": ""
+                    },
+                    {
+                        "Name": "TextCom/Pos",
+                        "Type": "vectore3",
+                        "TextCom/Pos": [0.0, 0.0, 0.0]
+                    }
+                ]
+            }
+        ]
+    }
+}

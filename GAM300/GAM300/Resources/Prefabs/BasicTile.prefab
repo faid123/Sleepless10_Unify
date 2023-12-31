@@ -1,0 +1,66 @@
+{
+    "78": {
+        "ID": 78,
+        "Name": "Prefab_BasicTile",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [84.0, -0.0010000000474974514, 132.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [1.399999976158142, 0.5, 1.600000023841858]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 90.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": 1.0
+                    },
+                    {
+                        "Name": "MaterialCom/colour",
+                        "Type": "vectore3",
+                        "MaterialCom/colour": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "BasicTile"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "forward_shader"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "BasicTile"
+                    },
+                    {
+                        "Name": "MaterialCom/HSV",
+                        "Type": "vectore3",
+                        "MaterialCom/HSV": [1.0, 1.0, 1.0]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "427": {
+        "ID": 427,
+        "Name": "Prefab_pause_yesno",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [0.0, 1.5299999713897706, 15.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [360.0, 200.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "SpriteCom",
+                "Properties": [
+                    {
+                        "Name": "SpriteCom/SpriteName",
+                        "Type": "string",
+                        "SpriteCom/SpriteName": "main_menu_no"
+                    },
+                    {
+                        "Name": "SpriteCom/Alpha Value",
+                        "Type": "float",
+                        "SpriteCom/Alpha Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Brightness Value",
+                        "Type": "float",
+                        "SpriteCom/Brightness Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Colour Modifer",
+                        "Type": "vectore3",
+                        "SpriteCom/Colour Modifer": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "SpriteCom/Draw Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Draw Sprite": false
+                    },
+                    {
+                        "Name": "SpriteCom/Render in 3D",
+                        "Type": "bool",
+                        "SpriteCom/Render in 3D": false
+                    },
+                    {
+                        "Name": "SpriteCom/Use Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Use Sprite": true
+                    },
+                    {
+                        "Name": "SpriteCom/Is a bar",
+                        "Type": "bool",
+                        "SpriteCom/Is a bar": false
+                    },
+                    {
+                        "Name": "SpriteCom/Bar Percentage",
+                        "Type": "float",
+                        "SpriteCom/Bar Percentage": 100.0
+                    },
+                    {
+                        "Name": "SpriteCom/bar offset X",
+                        "Type": "float",
+                        "SpriteCom/bar offset X": 0.0
+                    }
+                ]
+            }
+        ]
+    }
+}

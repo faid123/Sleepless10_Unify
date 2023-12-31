@@ -1,0 +1,61 @@
+{
+    "11": {
+        "ID": 11,
+        "Name": "Prefab_UI_Weapon_Laser",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": ["Weapon_Laser"],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [130.0, -89.0, 0.6899999976158142]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [200.0, 200.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "SpriteCom",
+                "Properties": [
+                    {
+                        "Name": "SpriteCom/SpriteName",
+                        "Type": "string",
+                        "SpriteCom/SpriteName": "UI_LaserWeapon"
+                    },
+                    {
+                        "Name": "SpriteCom/Alpha Value",
+                        "Type": "float",
+                        "SpriteCom/Alpha Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Brightness Value",
+                        "Type": "float",
+                        "SpriteCom/Brightness Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/bar Value",
+                        "Type": "float",
+                        "SpriteCom/bar Value": 0.0
+                    },
+                    {
+                        "Name": "SpriteCom/Draw Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Draw Sprite": true
+                    }
+                ]
+            }
+        ]
+    }
+}

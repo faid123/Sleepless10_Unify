@@ -1,0 +1,76 @@
+{
+    "368": {
+        "ID": 368,
+        "Name": "Prefab_UI_ThreatIcon",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [140.0, 85.0, 0.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [70.0, 12.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "SpriteCom",
+                "Properties": [
+                    {
+                        "Name": "SpriteCom/SpriteName",
+                        "Type": "string",
+                        "SpriteCom/SpriteName": "threatlevel_icon0"
+                    },
+                    {
+                        "Name": "SpriteCom/Alpha Value",
+                        "Type": "float",
+                        "SpriteCom/Alpha Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Brightness Value",
+                        "Type": "float",
+                        "SpriteCom/Brightness Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Colour Modifer",
+                        "Type": "vectore3",
+                        "SpriteCom/Colour Modifer": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "SpriteCom/Draw Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Draw Sprite": true
+                    },
+                    {
+                        "Name": "SpriteCom/Render in 3D",
+                        "Type": "bool",
+                        "SpriteCom/Render in 3D": false
+                    },
+                    {
+                        "Name": "SpriteCom/Use Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Use Sprite": true
+                    },
+                    {
+                        "Name": "SpriteCom/Is a bar",
+                        "Type": "bool",
+                        "SpriteCom/Is a bar": false
+                    }
+                ]
+            }
+        ]
+    }
+}

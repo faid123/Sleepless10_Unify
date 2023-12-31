@@ -1,0 +1,76 @@
+{
+    "61": {
+        "ID": 61,
+        "Name": "Prefab_UI_Cage_RocketHealth",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": ["UI_Cage_Rocket_Health"],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [1.5, 11.0, -4.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [5.0, 0.4000000059604645, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "SpriteCom",
+                "Properties": [
+                    {
+                        "Name": "SpriteCom/SpriteName",
+                        "Type": "string",
+                        "SpriteCom/SpriteName": "UI_HealthRedBar2"
+                    },
+                    {
+                        "Name": "SpriteCom/Alpha Value",
+                        "Type": "float",
+                        "SpriteCom/Alpha Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Brightness Value",
+                        "Type": "float",
+                        "SpriteCom/Brightness Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Colour Modifer",
+                        "Type": "vectore3",
+                        "SpriteCom/Colour Modifer": [1.0, 0.41999998688697817, 0.5899999737739563]
+                    },
+                    {
+                        "Name": "SpriteCom/Draw Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Draw Sprite": true
+                    },
+                    {
+                        "Name": "SpriteCom/Render in 3D",
+                        "Type": "bool",
+                        "SpriteCom/Render in 3D": true
+                    },
+                    {
+                        "Name": "SpriteCom/Use Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Use Sprite": false
+                    },
+                    {
+                        "Name": "SpriteCom/Is a bar",
+                        "Type": "bool",
+                        "SpriteCom/Is a bar": false
+                    }
+                ]
+            }
+        ]
+    }
+}

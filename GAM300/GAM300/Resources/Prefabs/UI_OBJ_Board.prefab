@@ -1,0 +1,61 @@
+{
+    "8": {
+        "ID": 8,
+        "Name": "Prefab_UI_OBJ_Board",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [137.0, 62.0, 0.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [150.0, 150.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "SpriteCom",
+                "Properties": [
+                    {
+                        "Name": "SpriteCom/SpriteName",
+                        "Type": "string",
+                        "SpriteCom/SpriteName": "UI_Objective_List"
+                    },
+                    {
+                        "Name": "SpriteCom/Alpha Value",
+                        "Type": "float",
+                        "SpriteCom/Alpha Value": 0.8500000238418579
+                    },
+                    {
+                        "Name": "SpriteCom/Brightness Value",
+                        "Type": "float",
+                        "SpriteCom/Brightness Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/bar Value",
+                        "Type": "float",
+                        "SpriteCom/bar Value": 0.0
+                    },
+                    {
+                        "Name": "SpriteCom/Draw Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Draw Sprite": true
+                    }
+                ]
+            }
+        ]
+    }
+}

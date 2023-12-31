@@ -1,0 +1,126 @@
+{
+    "380": {
+        "ID": 380,
+        "Name": "Prefab_BasicCarE",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": ["Car", "E"],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [112.77182006835938, 3.009999990463257, 138.85154724121095]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [0.10000000149011612, 0.10000000149011612, 0.10000000149011612]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 90.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "RigidDynamicCom",
+                "Properties": [
+                    {
+                        "Name": "RigidDynamicCom/rigidPos",
+                        "Type": "vectore3",
+                        "RigidDynamicCom/rigidPos": [112.77182006835938, 3.009999990463257, 138.85154724121095]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/rigidScale",
+                        "Type": "vectore3",
+                        "RigidDynamicCom/rigidScale": [3.9100000858306886, 3.5399999618530275, 7.050000190734863]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/rigidRot",
+                        "Type": "quat",
+                        "RigidDynamicCom/rigidRot": [0.0, 0.7071067690849304, 0.0, 0.7071067690849304]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/mass",
+                        "Type": "float",
+                        "RigidDynamicCom/mass": 1.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/staticFriction",
+                        "Type": "float",
+                        "RigidDynamicCom/staticFriction": 0.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/dynamicFriction",
+                        "Type": "float",
+                        "RigidDynamicCom/dynamicFriction": 5.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/restitution",
+                        "Type": "float",
+                        "RigidDynamicCom/restitution": 0.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/linearDamp",
+                        "Type": "float",
+                        "RigidDynamicCom/linearDamp": 5.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/angularDamp",
+                        "Type": "float",
+                        "RigidDynamicCom/angularDamp": 0.0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": -107374176.0
+                    },
+                    {
+                        "Name": "MaterialCom/colour",
+                        "Type": "vectore3",
+                        "MaterialCom/colour": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "BasicCar"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "forward_shader"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "BasicCar"
+                    },
+                    {
+                        "Name": "MaterialCom/HSV",
+                        "Type": "vectore3",
+                        "MaterialCom/HSV": [1.0, 0.0, 1.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "uaScriptCom",
+                "Properties": [
+                    {
+                        "Name": "LuaScriptCom/mScriptPath",
+                        "Type": "string",
+                        "LuaScriptCom/mScriptPath": ".//Resources//Script\\CarBehaviour2.lua"
+                    }
+                ]
+            }
+        ]
+    }
+}

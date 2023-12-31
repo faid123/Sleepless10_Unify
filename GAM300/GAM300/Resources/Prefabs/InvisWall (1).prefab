@@ -1,0 +1,101 @@
+{
+    "70": {
+        "ID": 70,
+        "Name": "Prefab_InvisWall (1)",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": ["City"],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [176.53500366210938, 16.06999969482422, 38.680999755859378]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [0.10000000149011612, 0.5, 0.10000000149011612]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "RigidStaticCom",
+                "Properties": [
+                    {
+                        "Name": "RigidStaticCom/rigidPos",
+                        "Type": "vectore3",
+                        "RigidStaticCom/rigidPos": [176.53500366210938, 16.06999969482422, 38.680999755859378]
+                    },
+                    {
+                        "Name": "RigidStaticCom/rigidScale",
+                        "Type": "vectore3",
+                        "RigidStaticCom/rigidScale": [10.0, 30.0, 600.0]
+                    },
+                    {
+                        "Name": "RigidStaticCom/rigidRot",
+                        "Type": "quat",
+                        "RigidStaticCom/rigidRot": [0.0, 0.0, 0.0, 1.0]
+                    },
+                    {
+                        "Name": "RigidStaticCom/staticFriction",
+                        "Type": "float",
+                        "RigidStaticCom/staticFriction": 0.0
+                    },
+                    {
+                        "Name": "RigidStaticCom/dynamicFriction",
+                        "Type": "float",
+                        "RigidStaticCom/dynamicFriction": 0.0
+                    },
+                    {
+                        "Name": "RigidStaticCom/restitution",
+                        "Type": "float",
+                        "RigidStaticCom/restitution": 0.0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": -107374176.0
+                    },
+                    {
+                        "Name": "MaterialCom/colour",
+                        "Type": "vectore3",
+                        "MaterialCom/colour": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "plane"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "forward_shader"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "plane"
+                    },
+                    {
+                        "Name": "MaterialCom/HSV",
+                        "Type": "vectore3",
+                        "MaterialCom/HSV": [1.0, 1.0, 1.0]
+                    }
+                ]
+            }
+        ]
+    }
+}

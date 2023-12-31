@@ -1,0 +1,101 @@
+{
+    "13": {
+        "ID": 13,
+        "Name": "Prefab_Floor",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": ["Floor"],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [1.0, 5.0, -4.000833988189697]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [0.10000000149011612, 0.5, 0.10000000149011612]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "RigidStaticCom",
+                "Properties": [
+                    {
+                        "Name": "RigidStaticCom/rigidPos",
+                        "Type": "vectore3",
+                        "RigidStaticCom/rigidPos": [1.0, 5.0, -4.000999927520752]
+                    },
+                    {
+                        "Name": "RigidStaticCom/rigidScale",
+                        "Type": "vectore3",
+                        "RigidStaticCom/rigidScale": [108.08999633789063, 2.5399999618530275, 108.16999816894531]
+                    },
+                    {
+                        "Name": "RigidStaticCom/rigidRot",
+                        "Type": "quat",
+                        "RigidStaticCom/rigidRot": [0.0, 0.0, 0.0, 1.0]
+                    },
+                    {
+                        "Name": "RigidStaticCom/staticFriction",
+                        "Type": "float",
+                        "RigidStaticCom/staticFriction": 0.0
+                    },
+                    {
+                        "Name": "RigidStaticCom/dynamicFriction",
+                        "Type": "float",
+                        "RigidStaticCom/dynamicFriction": 0.0
+                    },
+                    {
+                        "Name": "RigidStaticCom/restitution",
+                        "Type": "float",
+                        "RigidStaticCom/restitution": 0.0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": -107374176.0
+                    },
+                    {
+                        "Name": "MaterialCom/colour",
+                        "Type": "vectore3",
+                        "MaterialCom/colour": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "MiddleRoadTile"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "forward_shader"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "MiddleRoadTile"
+                    },
+                    {
+                        "Name": "MaterialCom/HSV",
+                        "Type": "vectore3",
+                        "MaterialCom/HSV": [1.0, 1.0, 1.0]
+                    }
+                ]
+            }
+        ]
+    }
+}

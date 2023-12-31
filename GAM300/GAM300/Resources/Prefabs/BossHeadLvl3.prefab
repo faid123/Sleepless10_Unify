@@ -1,0 +1,171 @@
+{
+    "416": {
+        "ID": 416,
+        "Name": "Prefab_BossHeadLvl3",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": ["Boss"],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [0.7652549743652344, 19.0, 39.40021514892578]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [0.10000000149011612, 0.10000000149011612, 0.10000000149011612]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 180.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "RigidDynamicCom",
+                "Properties": [
+                    {
+                        "Name": "RigidDynamicCom/rigidPos",
+                        "Type": "vectore3",
+                        "RigidDynamicCom/rigidPos": [0.7652549743652344, 19.0, 39.40021514892578]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/rigidScale",
+                        "Type": "vectore3",
+                        "RigidDynamicCom/rigidScale": [15.0, 10.0, 10.0]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/rigidRot",
+                        "Type": "quat",
+                        "RigidDynamicCom/rigidRot": [-0.0, 1.0, -0.0, -4.371138828673793e-8]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/mass",
+                        "Type": "float",
+                        "RigidDynamicCom/mass": 1.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/staticFriction",
+                        "Type": "float",
+                        "RigidDynamicCom/staticFriction": 0.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/dynamicFriction",
+                        "Type": "float",
+                        "RigidDynamicCom/dynamicFriction": 0.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/restitution",
+                        "Type": "float",
+                        "RigidDynamicCom/restitution": 0.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/linearDamp",
+                        "Type": "float",
+                        "RigidDynamicCom/linearDamp": 0.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/angularDamp",
+                        "Type": "float",
+                        "RigidDynamicCom/angularDamp": 0.0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": 1.0
+                    },
+                    {
+                        "Name": "MaterialCom/colour",
+                        "Type": "vectore3",
+                        "MaterialCom/colour": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "Boss3"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "forward_shader"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "Boss3"
+                    },
+                    {
+                        "Name": "MaterialCom/HSV",
+                        "Type": "vectore3",
+                        "MaterialCom/HSV": [1.0, 1.0, 1.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "uaScriptCom",
+                "Properties": [
+                    {
+                        "Name": "LuaScriptCom/mScriptPath",
+                        "Type": "string",
+                        "LuaScriptCom/mScriptPath": ".//Resources//Script\\Boss_Head.lua"
+                    }
+                ]
+            },
+            {
+                "ComponentType": "EmitterCom",
+                "Properties": [
+                    {
+                        "Name": "EmitterCom/velocityVariation",
+                        "Type": "vectore3",
+                        "EmitterCom/velocityVariation": [0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "EmitterCom/colorBegin",
+                        "Type": "vectore4",
+                        "EmitterCom/colorBegin": [0.0, 0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "EmitterCom/colorEnd",
+                        "Type": "vectore4",
+                        "EmitterCom/colorEnd": [0.0, 0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "EmitterCom/sizeBegin",
+                        "Type": "float",
+                        "EmitterCom/sizeBegin": 0.0
+                    },
+                    {
+                        "Name": "EmitterCom/sizeEnd",
+                        "Type": "float",
+                        "EmitterCom/sizeEnd": 0.0
+                    },
+                    {
+                        "Name": "EmitterCom/sizeVariation",
+                        "Type": "float",
+                        "EmitterCom/sizeVariation": 0.0
+                    },
+                    {
+                        "Name": "EmitterCom/lifeTime",
+                        "Type": "float",
+                        "EmitterCom/lifeTime": 1.0
+                    },
+                    {
+                        "Name": "EmitterCom/emit",
+                        "Type": "bool",
+                        "EmitterCom/emit": false
+                    }
+                ]
+            }
+        ]
+    }
+}

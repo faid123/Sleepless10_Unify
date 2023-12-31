@@ -1,0 +1,1711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="BasedEngine\Assert\Assert.cpp">
+      <Filter>BasedEngine\Assert</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Audio\AudioSystem.cpp">
+      <Filter>BasedEngine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Editor\EditorSystem\EditorSystem.cpp">
+      <Filter>BasedEngine\Editor\Editor System</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Graphics\Graphics\Graphics.cpp">
+      <Filter>BasedEngine\Graphics\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Graphics\RenderSystem\RenderSystem.cpp">
+      <Filter>BasedEngine\Graphics\RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui-docking\imgui.cpp">
+      <Filter>BasedEngine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui-docking\imgui_demo.cpp">
+      <Filter>BasedEngine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui-docking\imgui_draw.cpp">
+      <Filter>BasedEngine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui-docking\backends\imgui_impl_glfw.cpp">
+      <Filter>BasedEngine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui-master\examples\imgui_impl_opengl3.cpp">
+      <Filter>BasedEngine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui-docking\imgui_widgets.cpp">
+      <Filter>BasedEngine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Engine.cpp">
+      <Filter>BasedEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\ECS\Serializer\EntitySerializer.cpp">
+      <Filter>BasedEngine\Serializer</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\ECS\Serializer\ComponnentsSerializer.cpp">
+      <Filter>BasedEngine\Serializer</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\ECS\Serializer\ISerializer.cpp">
+      <Filter>BasedEngine\Serializer</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\ECS\ECS.cpp">
+      <Filter>BasedEngine\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\ECS\Entity\Entity.cpp">
+      <Filter>BasedEngine\ECS\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Graphics\GLmodel\GLmodel.cpp">
+      <Filter>BasedEngine\Graphics\GLmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Graphics\GLshader\glslshader.cpp">
+      <Filter>BasedEngine\Graphics\GLshader</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Graphics\Window\Input\Input.cpp">
+      <Filter>BasedEngine\Graphics\Window\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Physics\PhysicsSystem.cpp">
+      <Filter>BasedEngine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Physics\RigidBodyComponent.cpp">
+      <Filter>BasedEngine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Graphics\Window\Time\Time.cpp">
+      <Filter>BasedEngine\Graphics\Window\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Graphics\Window\Window\Window.cpp">
+      <Filter>BasedEngine\Graphics\Window\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Camera\CameraSystem\CameraSystem.cpp">
+      <Filter>BasedEngine\Camera\CameraSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\MathLib\Matrix2.cpp">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\MathLib\Matrix3.cpp">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\MathLib\Precompiled.cpp">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\MathLib\Vector2.cpp">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\MathLib\Vector3.cpp">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\MathLib\Vector4.cpp">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\MathLib\Matrix4.cpp">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\MathLib\Quat.cpp">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui-docking\ImGuiFileBrowser.cpp">
+      <Filter>BasedEngine\Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Editor\EditorSystem\EditorUI.cpp">
+      <Filter>BasedEngine\Editor\Editor System</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\ECS\Serializer\SerializerSystem.cpp">
+      <Filter>BasedEngine\Serializer</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\ECS\System\System.cpp">
+      <Filter>BasedEngine\ECS\System</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Graphics\DDSLoader\ModelLoader.cpp">
+      <Filter>BasedEngine\Graphics\ModelLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Event\EventEmitter.cpp">
+      <Filter>BasedEngine\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Event\iEventSystem.cpp">
+      <Filter>BasedEngine\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Event\Testevent.cpp">
+      <Filter>BasedEngine\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Particles\ParticleSystem.cpp">
+      <Filter>BasedEngine\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Particles\ParticleComponent.cpp">
+      <Filter>BasedEngine\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\MathLib\Random.cpp">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Particles\EmitterComponent.cpp">
+      <Filter>BasedEngine\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\ResourceManager\ResourceManager.cpp">
+      <Filter>BasedEngine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Audio\Sound.cpp">
+      <Filter>BasedEngine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Audio\AudioSrcCom.cpp">
+      <Filter>BasedEngine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\ImGuizmo\ImCurveEdit.cpp">
+      <Filter>BasedEngine\Imgui\ImGuizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\ImGuizmo\ImGradient.cpp">
+      <Filter>BasedEngine\Imgui\ImGuizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\ImGuizmo\ImGuizmo.cpp">
+      <Filter>BasedEngine\Imgui\ImGuizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\ImGuizmo\ImSequencer.cpp">
+      <Filter>BasedEngine\Imgui\ImGuizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Prefabs\PrefabsManager.cpp">
+      <Filter>BasedEngine\Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Logic\Lua\LuaScriptCom.cpp">
+      <Filter>BasedEngine\Logic\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Logic\Lua\ScriptingSystem.cpp">
+      <Filter>BasedEngine\Logic\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Logic\Lua\LuaComponentBindings.cpp">
+      <Filter>BasedEngine\Logic\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Logic\Lua\LuaInputBindings.cpp">
+      <Filter>BasedEngine\Logic\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Logic\Lua\LuaMathBindings.cpp">
+      <Filter>BasedEngine\Logic\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Logic\Lua\LuaSystemBindings.cpp">
+      <Filter>BasedEngine\Logic\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Animation\AnimationSystem.cpp">
+      <Filter>BasedEngine\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Animation\Skinned_Mesh.cpp">
+      <Filter>BasedEngine\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\MathLib\Converter.cpp">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Logic\Lua\LuaECSBindings.cpp">
+      <Filter>BasedEngine\Logic\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\UserIntered\UI_Logic.cpp">
+      <Filter>BasedEngine\UserInterfaced</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\UserIntered\UI_System.cpp">
+      <Filter>BasedEngine\UserInterfaced</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Animation\AnimationCom.cpp">
+      <Filter>BasedEngine\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\UserIntered\UICom.cpp">
+      <Filter>BasedEngine\UserInterfaced</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Graphics\FreeType\text.cpp">
+      <Filter>BasedEngine\Graphics\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Physics\ContactReportCallback.cpp">
+      <Filter>BasedEngine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\VideoReader\video_reader.cpp">
+      <Filter>BasedEngine\VideoReader</Filter>
+    </ClCompile>
+    <ClCompile Include="BasedEngine\Animation\SpriteAnimation.cpp">
+      <Filter>BasedEngine\Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasedEngine\Assert\Assert.h">
+      <Filter>BasedEngine\Assert</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Audio\AudioSystem.h">
+      <Filter>BasedEngine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\ECS\ECSType.h">
+      <Filter>BasedEngine\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Editor\EditorSystem\EditorSystem.h">
+      <Filter>BasedEngine\Editor\Editor System</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\TransformCom.h">
+      <Filter>BasedEngine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\Graphics\Graphics.h">
+      <Filter>BasedEngine\Graphics\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\RenderSystem\RenderSystem.h">
+      <Filter>BasedEngine\Graphics\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui-docking\imconfig.h">
+      <Filter>BasedEngine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui-docking\imgui.h">
+      <Filter>BasedEngine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui-docking\backends\imgui_impl_glfw.h">
+      <Filter>BasedEngine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui-docking\imgui_internal.h">
+      <Filter>BasedEngine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui-master\examples\imgui_impl_opengl3.h">
+      <Filter>BasedEngine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui-docking\imstb_truetype.h">
+      <Filter>BasedEngine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui-docking\imstb_textedit.h">
+      <Filter>BasedEngine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui-docking\imstb_rectpack.h">
+      <Filter>BasedEngine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Engine.h">
+      <Filter>BasedEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\ECS\Serializer\Settings.h">
+      <Filter>BasedEngine\Serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\ECS\Serializer\ISerializer.h">
+      <Filter>BasedEngine\Serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Camera\CameraCom.h">
+      <Filter>BasedEngine\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\ECS\Component\Component.h">
+      <Filter>BasedEngine\ECS\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\ECS\Component\ComponentManager.h">
+      <Filter>BasedEngine\ECS\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\ECS\ECS.h">
+      <Filter>BasedEngine\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\ECS\Entity\Entity.h">
+      <Filter>BasedEngine\ECS\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\GLmodel\GLmodel.h">
+      <Filter>BasedEngine\Graphics\GLmodel</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\GLshader\glslshader.h">
+      <Filter>BasedEngine\Graphics\GLshader</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\Window\Input\Input.h">
+      <Filter>BasedEngine\Graphics\Window\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\framework.h">
+      <Filter>BasedEngine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Physics\PhysicsSystem.h">
+      <Filter>BasedEngine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Physics\RigidBodyComponent.h">
+      <Filter>BasedEngine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\targetver.h">
+      <Filter>BasedEngine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\Window\Window\Window.h">
+      <Filter>BasedEngine\Graphics\Window\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\Window\Time\Time.h">
+      <Filter>BasedEngine\Graphics\Window\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\texture.h">
+      <Filter>BasedEngine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\Viewport.h">
+      <Filter>BasedEngine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\ECS\System\System.h">
+      <Filter>BasedEngine\ECS\System</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Camera\CameraSystem\CameraSystem.h">
+      <Filter>BasedEngine\Camera\CameraSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\MathLib\Matrix2.h">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\MathLib\Matrix3.h">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\MathLib\Precompiled.h">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\MathLib\Vector2.h">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\MathLib\Vector3.h">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\MathLib\Vector4.h">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\MathLib\Matrix4.h">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\MathLib\Quat.h">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui-docking\dirent.h">
+      <Filter>BasedEngine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui-docking\ImGuiFileBrowser.h">
+      <Filter>BasedEngine\Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Editor\EditorSystem\EditorUI.h">
+      <Filter>BasedEngine\Editor\Editor System</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\LightCom.h">
+      <Filter>BasedEngine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\ECS\Serializer\SerializerSystem.h">
+      <Filter>BasedEngine\Serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\DDSLoader\ModelLoader.h">
+      <Filter>BasedEngine\Graphics\ModelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\MaterialCom.h">
+      <Filter>BasedEngine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Event\Event.h">
+      <Filter>BasedEngine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Event\EventEmitter.h">
+      <Filter>BasedEngine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Event\iEventSystem.h">
+      <Filter>BasedEngine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Event\Testevent.h">
+      <Filter>BasedEngine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Particles\ParticleSystem.h">
+      <Filter>BasedEngine\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Particles\ParticleComponent.h">
+      <Filter>BasedEngine\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\MathLib\Random.h">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Particles\EmitterComponent.h">
+      <Filter>BasedEngine\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\ResourceManager\ResourceManager.h">
+      <Filter>BasedEngine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Audio\AudioSrcCom.h">
+      <Filter>BasedEngine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Audio\Sound.h">
+      <Filter>BasedEngine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ImGuizmo\ImCurveEdit.h">
+      <Filter>BasedEngine\Imgui\ImGuizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ImGuizmo\ImGradient.h">
+      <Filter>BasedEngine\Imgui\ImGuizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ImGuizmo\ImGuizmo.h">
+      <Filter>BasedEngine\Imgui\ImGuizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ImGuizmo\ImSequencer.h">
+      <Filter>BasedEngine\Imgui\ImGuizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\ImGuizmo\ImZoomSlider.h">
+      <Filter>BasedEngine\Imgui\ImGuizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Logic\Lua\LuaScriptCom.h">
+      <Filter>BasedEngine\Logic\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Logic\Lua\ScriptingSystem.h">
+      <Filter>BasedEngine\Logic\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Prefabs\PrefabsManager.h">
+      <Filter>BasedEngine\Prefabs</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Animation\AnimationSystem.h">
+      <Filter>BasedEngine\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Animation\Skinned_Mesh.h">
+      <Filter>BasedEngine\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\MathLib\Converter.h">
+      <Filter>BasedEngine\MathLib</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\SpriteCom.h">
+      <Filter>BasedEngine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\UserIntered\UI_Logic.h">
+      <Filter>BasedEngine\UserInterfaced</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\UserIntered\UI_System.h">
+      <Filter>BasedEngine\UserInterfaced</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\UserIntered\UICom.h">
+      <Filter>BasedEngine\UserInterfaced</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Animation\AnimationCom.h">
+      <Filter>BasedEngine\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\GameState.h">
+      <Filter>BasedEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\FreeType\text.h">
+      <Filter>BasedEngine\Graphics\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\FreeType\stb_image.h">
+      <Filter>BasedEngine\Graphics\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Graphics\TextCom.h">
+      <Filter>BasedEngine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Physics\ContactReportCallback.h">
+      <Filter>BasedEngine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\Animation\SpriteAnimation.h">
+      <Filter>BasedEngine\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BasedEngine\VideoReader\video_reader.h">
+      <Filter>BasedEngine\VideoReader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{eee0c094-aa59-400c-8fb4-402729947985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e5635d94-e685-434f-86bc-994138937a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Scene">
+      <UniqueIdentifier>{9e7c5f9e-17a0-44bc-8362-87588d59a936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine">
+      <UniqueIdentifier>{c486793e-8e68-4ff1-8037-ea5019b4bc94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Assert">
+      <UniqueIdentifier>{2aff53c8-cb8b-4198-b98d-a16e4d41f3c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Audio">
+      <UniqueIdentifier>{9ccab1e3-945f-4465-9bb7-068f93287401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\ECS">
+      <UniqueIdentifier>{c2d38bdd-c977-4eb4-a27d-e963ab4cbf9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\ECS\Component">
+      <UniqueIdentifier>{5e150366-df12-4bab-b713-cbb8709a5d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\ECS\Entity">
+      <UniqueIdentifier>{d2917c73-f992-43ac-b062-13e3fb547e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\ECS\System">
+      <UniqueIdentifier>{4bef3607-8a04-4bc6-a240-8d03063e17dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Editor">
+      <UniqueIdentifier>{85c02d56-d765-4faf-98f3-4357cdd25a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Editor\Editor System">
+      <UniqueIdentifier>{035a1d1e-5143-49c0-a6d8-c9c6bd5d3a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Graphics">
+      <UniqueIdentifier>{db317b96-d7a4-480c-9c47-0cbab2f2ef7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Graphics\GLmodel">
+      <UniqueIdentifier>{6420cf13-c90f-45ca-be02-36d75138750e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Graphics\GLshader">
+      <UniqueIdentifier>{bcaa94fe-7389-492f-8158-aa82f0c476a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Graphics\GLshader\shaders">
+      <UniqueIdentifier>{f81a9990-f079-4629-824b-2554c69cfbdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Graphics\Graphic">
+      <UniqueIdentifier>{1efe5aee-7ff7-49f6-a6b4-8685a40382ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Graphics\RenderSystem">
+      <UniqueIdentifier>{2ed9fef6-584d-4f75-a487-07cfcb7884ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Graphics\Window">
+      <UniqueIdentifier>{8620de3d-bab6-4cd2-8d30-fe621dc53003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Graphics\Window\Input">
+      <UniqueIdentifier>{9cf0172d-83e6-4eed-961a-53e0a63dc6ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Graphics\Window\Time">
+      <UniqueIdentifier>{4d87d072-e587-4f33-9e0d-b89576740e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Graphics\Window\Window">
+      <UniqueIdentifier>{c0cc3d6b-87fb-4530-b97f-d0c4c6c711f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Graphics\ModelLoader">
+      <UniqueIdentifier>{6fa850a1-7b33-4b2b-b995-10136bf5aed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\MathLib">
+      <UniqueIdentifier>{7ad8e2c0-e0a9-437d-bd6a-80438f7bdb8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Serializer">
+      <UniqueIdentifier>{ff70c310-31ab-4d56-9ccd-7b7011b9a6af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Camera">
+      <UniqueIdentifier>{b06afbba-cf03-456d-9b6c-3a05b0c70640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Camera\CameraSystem">
+      <UniqueIdentifier>{32d29299-dbc1-4019-977b-8835457e7fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Imgui">
+      <UniqueIdentifier>{42170958-de14-48c0-b83f-6bb3e4150e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Imgui\ImGuizmo">
+      <UniqueIdentifier>{f06dead0-2db9-42f1-8df8-a5e21bfd585b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Physics">
+      <UniqueIdentifier>{4c54ff1b-6937-4ab7-8ac0-fd12657ef5d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Particles">
+      <UniqueIdentifier>{0cf579a6-03cf-451d-a489-e3c93bbfd8e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Event">
+      <UniqueIdentifier>{063eba92-f53d-4f3b-b47f-dee553b73eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\ResourceManager">
+      <UniqueIdentifier>{b2233f07-2408-43a1-8253-34d1b03b43c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Prefabs">
+      <UniqueIdentifier>{96184a5c-8ce5-443a-b816-5741ea2239eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Logic">
+      <UniqueIdentifier>{38b92586-f816-4a7a-a15b-d9edbb4beaba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Logic\Lua">
+      <UniqueIdentifier>{7954f379-f70f-40d5-b427-3d510d484755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Animation">
+      <UniqueIdentifier>{6c10a81a-7760-4285-997d-7c9ca92f1789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Scripts">
+      <UniqueIdentifier>{b4d6b68a-10fc-44c4-9cc5-496e126f4d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\UserInterfaced">
+      <UniqueIdentifier>{7ea4523f-2b35-4794-9725-66987fb56360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Prefab">
+      <UniqueIdentifier>{f70d4b04-b273-4866-b11f-9a8cf558b2a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shader">
+      <UniqueIdentifier>{28ea138d-532c-4092-99d3-c31f306430da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\Graphics\FreeType">
+      <UniqueIdentifier>{23637705-d271-438b-8fe2-69ef05e5ae37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasedEngine\VideoReader">
+      <UniqueIdentifier>{913faab7-2cbd-4ce8-88cd-79846f7aacf7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scene\cameraTest.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\default.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\Scene1.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Script\PlayerBehavior.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\temptest.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\BuildingBehaviour.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Scene\cameraTest.scene" />
+    <None Include="Resources\Script\EnemyChase.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\ColourCubes.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\BulletBehavior.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\RocketBehavior.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\AudioFiles\AudioFiles.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Script\Level1ColourBuilding.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Scene\DirLightShadow.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\LuaTest.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\phytest.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\Scene1cubeTest.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\Scene1Test.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\SegmentPrototype.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Shaders\forward.frag">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\forward.vert">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\FragmentShader.frag">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\framebuffer_screen.frag">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\framebuffer_screen.vert">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\simple_shadowmap.frag">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\simple_shadowmap.vert">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\skinning.frag">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\skinning.vert">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\skybox.frag">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\skybox.vert">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\vertexShader.vert">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\wireframe_Shader.frag">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\wireframe_Shader.vert">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Script\ShieldEnemy.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\temptest.lua">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Script\RangeEnemy.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\Level2ConsecutivelyKill.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\LaserBehaviour.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\ExplosionBehavior.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\Load_Level1to2.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\Level3Generator.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\Load_Level2to3.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Scene\MainMenu.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Script\AmmoCubes.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="..\shaders\forward.frag">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="..\shaders\forward.vert">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="..\shaders\FragmentShader.frag">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="..\shaders\framebuffer_screen.frag">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="..\shaders\framebuffer_screen.vert">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="..\shaders\simple_shadowmap.frag">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="..\shaders\simple_shadowmap.vert">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="..\shaders\vertexShader.vert">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="..\shaders\skybox.frag">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="..\shaders\skybox.vert">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Resources\Shaders\UIShader.frag">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Resources\Shaders\UIShader.vert">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="..\shaders\wireframe_Shader.frag">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="..\shaders\wireframe_Shader.vert">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Bullet.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Cube.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Enemy.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\floor.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\man.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Player.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Rocket.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Scene\ALightTest.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\testUI.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\VerticalSlice_1.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\VerticalSlice_1_Test.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\VerticalSlice_2.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\VerticalSlice_3.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Prefabs\AmmoCube.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Army.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Army_Spawner.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\BendRoad.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Building1.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Building2.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Building3.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Building4.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Lights0.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Police.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Police_Spawner.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\RoadTile.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Shield.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Shield_Spawner.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\WeaponCase.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Script\ArmySpawner.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\EnemyChase(old).lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\PoliceSpawner.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\ShieldSpawner.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Bullet.prefab" />
+    <None Include="Resources\Prefabs\Cube.prefab" />
+    <None Include="Resources\Prefabs\Enemy.prefab" />
+    <None Include="Resources\Prefabs\floor.prefab" />
+    <None Include="Resources\Prefabs\man.prefab" />
+    <None Include="Resources\Prefabs\Player.prefab" />
+    <None Include="Resources\Prefabs\Rocket.prefab" />
+    <None Include="Resources\Prefabs\Explosion.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\HealthBar.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Laser.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_Health_Color.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_Health_UI.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_OBJ_Board.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_OBJ_Overload.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_PowerUp.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_PowerUp_Colour.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_PowerUP_Max.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_Weapon_Laser.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_Weapon_Pistol.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_Weapon_Rocket.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Zone4_BaseTile.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Fence.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\FenceGate.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\PauseBG.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\PauseButton_Menu.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\PauseButton_Resume.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\PauseTitle.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Pointer.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Shaders\UIShader.frag">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\UIShader.vert">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\UI3DShader.vert">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\UI3DShader.frag">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\UIShader.vert">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\UIShader.frag">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Shaders\forward.frag.bak">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Resources\Shaders\forward.vert.bak">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Resources\Shaders\UIShader.frag">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Resources\Shaders\UIShader.vert">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Resources\Script\WeaponBehavior.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\CivilianBehaviour.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\CivilianSpawner.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\CarBehaviour.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Prefabs\LampPost_Fence.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Tree.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Bench_Fence.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Script\CarBehaviour2.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\CivilianScenario.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\EnemyWaveScenario.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\CameraBehaviour.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\CollisionCamera.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Scene\Final_Level1.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Script\Boss_Head.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\Boss_LowerBody.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\Boss_UpperBody.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Scene\EmptyBaseLevel.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\Final_Level1(with scenario).scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\GameOver.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\ParticleTestSystem.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\PauseMenu.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\UI_test.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\Win.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\Final_Level2.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Script\ConstructorBehavior.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\HelicopterEnemy.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\EnemyRocketBehaviour.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Prefabs\EnemyRocket.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Target.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Script\EnemyExplosionBehaviour.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Prefabs\EnemyExplosion.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\HelicopterEnemy.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Script\ObjBoard.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Prefabs\ParticleDispenser.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Car.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\EnemyBullet.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Script\CarSpawner.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\EnemyBulletBehavior.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\CutsceneBehavior_BossDefeat.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\CutsceneBehavior_BossEnter.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\CutsceneBehavior_Intro.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\EnemyWaveScenario1.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\SoldierWaveScenario.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\SpeedlindBehaviour.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\LaserTutorialScenario.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\ScenarioTarget.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\RocketTutorialScenario.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\ShieldScenario.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\RiotShieldBehavior.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\UnifyScenario.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\ClownBehavior.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\ClownMinionBehavior.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\MinionExplosion.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Shaders\simple_minimap.frag">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Resources\Shaders\simple_minimap.vert">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Car.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\EnemyBullet.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Script\CarSpawner.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\CutsceneBehavior_BossDefeat.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\CutsceneBehavior_BossEnter.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\CutsceneBehavior_Intro.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\EnemyBulletBehavior.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\EnemyWaveScenario1.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\SpeedlindBehaviour.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\SoldierWaveScenario.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Shaders\FontShader.frag">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Resources\Shaders\FontShader.vert">
+      <Filter>Resource Files\Shader</Filter>
+    </None>
+    <None Include="Resources\Script\HomingWep_Boss.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\ParticleDispenser.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Scene\Final_Level3.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Script\MultipleSpawner.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\BarrierBehavior.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\ObjTextUIManager.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\CasualCivi.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\ExplosionEmitterBehavior.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\BossLaserBehaviour.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\BossLvlHead.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\EnemyScenario1.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\RocketHomingBehaviour.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\RocketShowerBehaviour.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\ShowersWep_Boss.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Car.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Script\CarSpawner.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\CutsceneBehavior_BossDefeat.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\CutsceneBehavior_BossEnter.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\CutsceneBehavior_Intro.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Prefabs\EnemyBullet.prefab">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\EnemyBulletBehavior.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\EnemyWaveScenario1.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\SoldierWaveScenario.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\SpeedlindBehaviour.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\Boss3_LowerBody.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\Boss3_UpperBody.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\BossLvl3Head.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\ShowersWep_Boss3.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Scene\Boss3Test.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\BossTest.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\Final_Level1.scene.bak">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\Final_Level2(test w scenario).scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\Final_Level3.scene.bak">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\Level1_LoadingScreen.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\Level2_LoadingScreen.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\Level3_LoadingScreen.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\LevelSelect.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Script\HeliTarget.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Pause_Button_MainMenu.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Script\MainMenu.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\OptionsMenu.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Shaders\simple_shadowmap.geom">
+      <Filter>BasedEngine\Graphics\GLshader\shaders</Filter>
+    </None>
+    <None Include="Resources\Scene\OptionsMenu.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Script\Fade_Black_Screen.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\Gamma_FadeIn.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Scene\DigipenLogo_StartScreen.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Scene\TeamLogo_StartScreen.scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Prefabs\pause_pointer.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Scene\NewMainMenu(w civilians).scene">
+      <Filter>Resource Files\Scene</Filter>
+    </None>
+    <None Include="Resources\Script\GameOverScreen.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Prefabs\pause_yesno.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\pause_vol_bar.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\pause_options.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\pause_htp.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\pause_gamma_bar.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\pause_buttons.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Script\CutsceneBehavior_Map1.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\HomingWep_Boss3.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Prefabs\3_Boss_Head.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\3_BossHomingRocket.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\3_BossLowerTurr.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\3_BossRockShower.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\3_BossUpperTurr.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\AAABossDefeatCutscene.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\AAABossIntroCutscene.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\AAACutSceneMap1.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\AAAIntroCutscene.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\AAFrontBGCutscene.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\ArmyBase.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\ArmyCar.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\armyScenario.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Barrier.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\BasicCar.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\BasicCarB.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\BasicTile.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Bench.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Boss_Head.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Boss_Head_Test.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Boss_Laser.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Boss_LowerBody.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Boss_LowerLaser1.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Boss_UpperBody.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Boss_UpperLaser1.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Boss_UpperLaser2.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Boss_UpperLaser3.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Boss2_Body.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\BossHeadLvl3.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\BossPanel.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\BossPanelLvl2.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\BossRocket.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\BossRocket1.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\brightness_bar.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Building5.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Building6.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Building7.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\buildingScenario.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Button_MainMenu.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Cage.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Camera.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\CasualCivi.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Circus.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\CircusSmall.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Civilian.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Civilian_S.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Civilian_Scenario.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Civilian_Spawner.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\civilianScenario.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Clown.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\ClownMinion.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\clownScenario.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Constructor.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\ElectricTower.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\EnemyScenario.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\EnemyWaveScenario.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\ExplosionEffect.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Helicopter.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\HelicopterSpawner.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\InvisWall (1).prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\InvisWall (2).prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\InvisWall (3).prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\InvisWall.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\lAmmoCube.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\LampPost.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\LaserScenarioTutorial.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\LaserTarget.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\mainmenu_buttons.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\mainmenu_logo.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\mainmenu_pointer.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\MiniMap_QuestMarker.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\MinionExplosion.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\MultipleSpawner.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Pause_Pointer.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\PlayerCamera1.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\PlayerCamera2.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\PoliceCar.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\PoliceCarMove.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\policeScenario.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\PoliceStation.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\rAmmoCube.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\RedSquare.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\RiotShield.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\RocketTarget.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\RocketTutorialScenario.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\RV_Car.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\ScenarioFence.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\shieldScenario.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\SirenBuilding.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\SirenCar.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Soldier.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\SpeedLines.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\TargetLED.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Tent.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Text.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Tree2.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\treeScenario.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_BossHealthBar.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_BossHealthColor.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_Cage_LaserHealth.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_Cage_PistolHealth.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_Cage_RocketHealth.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_Challenge.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_Crosshair.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_ThreatColor.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_ThreatIcon.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\UI_ThreatUI.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Vehicle_Spawner.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\volume_bar.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Wall.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\Weapon.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\WeaponTest1.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\WeaponTest2.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\WoodenCrate.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Prefabs\yesno.prefab">
+      <Filter>Resource Files\Prefab</Filter>
+    </None>
+    <None Include="Resources\Script\Simple_FadeBlack.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\Simple_FadeIn.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\CutsceneBehavior_Intro3.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+    <None Include="Resources\Script\ClownMinionNoAudio.lua">
+      <Filter>Resource Files\Scripts</Filter>
+    </None>
+  </ItemGroup>
+</Project>

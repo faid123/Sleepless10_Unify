@@ -1,0 +1,126 @@
+{
+    "341": {
+        "ID": 341,
+        "Name": "Prefab_MinionExplosion",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": ["MinionExplosion"],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "RigidDynamicCom",
+                "Properties": [
+                    {
+                        "Name": "RigidDynamicCom/rigidPos",
+                        "Type": "vectore3",
+                        "RigidDynamicCom/rigidPos": [0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/rigidScale",
+                        "Type": "vectore3",
+                        "RigidDynamicCom/rigidScale": [10.0, 10.0, 10.0]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/rigidRot",
+                        "Type": "quat",
+                        "RigidDynamicCom/rigidRot": [0.0, 0.0, 0.0, 1.0]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/mass",
+                        "Type": "float",
+                        "RigidDynamicCom/mass": 1.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/staticFriction",
+                        "Type": "float",
+                        "RigidDynamicCom/staticFriction": 0.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/dynamicFriction",
+                        "Type": "float",
+                        "RigidDynamicCom/dynamicFriction": 0.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/restitution",
+                        "Type": "float",
+                        "RigidDynamicCom/restitution": 0.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/linearDamp",
+                        "Type": "float",
+                        "RigidDynamicCom/linearDamp": 0.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/angularDamp",
+                        "Type": "float",
+                        "RigidDynamicCom/angularDamp": 0.0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": 1.0
+                    },
+                    {
+                        "Name": "MaterialCom/colour",
+                        "Type": "vectore3",
+                        "MaterialCom/colour": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "default"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "forward_shader"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "none"
+                    },
+                    {
+                        "Name": "MaterialCom/HSV",
+                        "Type": "vectore3",
+                        "MaterialCom/HSV": [1.0, 1.0, 1.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "uaScriptCom",
+                "Properties": [
+                    {
+                        "Name": "LuaScriptCom/mScriptPath",
+                        "Type": "string",
+                        "LuaScriptCom/mScriptPath": ".//Resources//Script\\ExplosionBehavior.lua"
+                    }
+                ]
+            }
+        ]
+    }
+}

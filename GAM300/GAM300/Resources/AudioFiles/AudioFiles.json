@@ -1,0 +1,305 @@
+{
+    "SoundsContainer": [
+        {
+            "SoundName": "BG_Level1",
+            "Volume": 0.15000000596046449,
+            "Muted": false,
+            "Loop": -1,
+            "Type": "BGM"
+        },
+        {
+            "SoundName": "BG_Level2",
+            "Volume": 0.20000000298023225,
+            "Muted": false,
+            "Loop": -1,
+            "Type": "BGM"
+        },
+        {
+            "SoundName": "BG_Level2_Boss",
+            "Volume": 0.30000001192092898,
+            "Muted": false,
+            "Loop": -1,
+            "Type": "BGM"
+        },
+        {
+            "SoundName": "BG_Level3",
+            "Volume": 0.20000000298023225,
+            "Muted": false,
+            "Loop": -1,
+            "Type": "BGM"
+        },
+        {
+            "SoundName": "BG_Level3_Boss",
+            "Volume": 0.20000000298023225,
+            "Muted": false,
+            "Loop": -1,
+            "Type": "BGM"
+        },
+        {
+            "SoundName": "BG_MainMenu",
+            "Volume": 0.20000000298023225,
+            "Muted": false,
+            "Loop": -1,
+            "Type": "BGM"
+        },
+        {
+            "SoundName": "BG_MainLoading",
+            "Volume": 0.20000000298023225,
+            "Muted": false,
+            "Loop": -1,
+            "Type": "BGM"
+        },
+        {
+            "SoundName": "PlayerCollectCube_SFX",
+            "Volume": 0.05999999865889549,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX"
+        },
+        {
+            "SoundName": "PlayerDamaged_SFX",
+            "Volume": 0.30000001192092898,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX"
+        },
+        {
+            "SoundName": "PlayerDash_SFX",
+            "Volume": 0.6200000047683716,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX"
+        },
+        {
+            "SoundName": "PlayerJump_SFX",
+            "Volume": 0.30000001192092898,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX"
+        },
+        {
+            "SoundName": "SFX_PlayerShoot",
+            "Volume": 0.8399999737739563,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX"
+        },
+        {
+            "SoundName": "PlayerLaser_SFX",
+            "Volume": 0.3700000047683716,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX"
+        },
+        {
+            "SoundName": "PlayerRocketFire_SFX",
+            "Volume": 0.3500000238418579,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX"
+        },
+        {
+            "SoundName": "PlayerRocketHit_SFX",
+            "Volume": 1.0,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX_3D"
+        },
+        {
+            "SoundName": "Evil_Laugh",
+            "Volume": 1.0,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX"
+        },
+        {
+            "SoundName": "Enemy_Dog",
+            "Volume": 0.5,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX_3D"
+        },
+        {
+            "SoundName": "Helicopter_Entrance",
+            "Volume": 1.0,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX_3D"
+        },
+        {
+            "SoundName": "Unify_SFX",
+            "Volume": 1.0,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX_3D"
+        },
+        {
+            "SoundName": "lv3BossEnter",
+            "Volume": 0.30000001192092898,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "UI"
+        },
+        {
+            "SoundName": "Lv3BossDefeatCutScene",
+            "Volume": 0.41999998688697817,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "UI"
+        },
+        {
+            "SoundName": "NOSound",
+            "Volume": 0.11999999731779099,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "UI"
+        },
+        {
+            "SoundName": "SFX_MenuSelect",
+            "Volume": 0.4000000059604645,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "UI"
+        },
+        {
+            "SoundName": "SFX_MenuEnter",
+            "Volume": 0.7599999904632568,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "UI"
+        },
+        {
+            "SoundName": "SFX_EnemyDeath",
+            "Volume": 0.699999988079071,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX_3D"
+        },
+        {
+            "SoundName": "SFX_ClownHorn",
+            "Volume": 0.1599999964237213,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX_3D"
+        },
+        {
+            "SoundName": "SFX_HelicopterDeath",
+            "Volume": 1.0,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX_3D"
+        },
+        {
+            "SoundName": "intro",
+            "Volume": 0.5,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "UI"
+        },
+        {
+            "SoundName": "OtherDefeatCutScene",
+            "Volume": 0.30000004172325137,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "UI"
+        },
+        {
+            "SoundName": "otherLvBossEnter",
+            "Volume": 0.1599999964237213,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "UI"
+        },
+        {
+            "SoundName": "SFX_WeaponPistol",
+            "Volume": 0.07999999821186066,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "UI"
+        },
+        {
+            "SoundName": "SFX_WeaponLaser",
+            "Volume": 0.07999999821186066,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "UI"
+        },
+        {
+            "SoundName": "SFX_WeaponRocket",
+            "Volume": 0.1599999964237213,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "UI"
+        },
+        {
+            "SoundName": "SFX_HealthRegen",
+            "Volume": 0.6000000238418579,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX"
+        },
+        {
+            "SoundName": "SFX_GameOver",
+            "Volume": 0.1599999964237213,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "UI"
+        },
+        {
+            "SoundName": "SFX_HeliRocket",
+            "Volume": 1.0,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX_3D"
+        },
+        {
+            "SoundName": "SFX_EnemyLaser",
+            "Volume": 0.17000000178813935,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX_3D"
+        },
+        {
+            "SoundName": "UNI-FY_GameOver",
+            "Volume": 0.30000001192092898,
+            "Muted": false,
+            "Loop": -1,
+            "Type": "BGM"
+        },
+        {
+            "SoundName": "SFX_HitMarker",
+            "Volume": 0.30000001192092898,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX"
+        },
+        {
+            "SoundName": "SFX_ObjectiveComplete",
+            "Volume": 0.6000000238418579,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "SFX"
+        },
+        {
+            "SoundName": "SFX_ThreatUp",
+            "Volume": 0.30000001192092898,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "UI"
+        },
+        {
+            "SoundName": "SFX_ThreatMax",
+            "Volume": 0.30000001192092898,
+            "Muted": false,
+            "Loop": 0,
+            "Type": "UI"
+        },
+        {
+            "SoundName": "SFX_Helicopter",
+            "Volume": 1.0,
+            "Muted": false,
+            "Loop": -1,
+            "Type": "SFX_3D"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+"1": {
+        "ID": 1,
+        "Name": "Player",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Transform": {
+            "Pos": [0.0, 15.0, -15.0],
+            "Scale": [2.0, 2.0, 2.0],
+            "Rotate": [0.0, 0.0, 0.0],
+            "State": "Dynamic"
+        },
+        "Camera": {
+            "Pos": [0.0, 15.0, -15.0],
+            "Eye": [1.0, 15.0, -5.0],
+            "Up": [0.0, 1.0, 0.0],
+            "FOV": 45.0,
+            "Near": 1.0,
+            "Far": 200.0,
+            "RotationSum": [-0.0, 0.0, 0.0, 1.0],
+            "TranslateLength": 10.049875259399414,
+            "ZoomSum": 0.0,
+            "RollSum": 0.0
+        },
+        "RigidBodyDynamic": {
+            "Pos": [0.0, 15.0, -15.0],
+            "Scale": [2.0, 2.0, 2.0],
+            "Rot": [0.0, 0.0, 0.0, 1.0],
+            "Mass": 10.0
+        },
+        "Material": {
+            "Model": "default",
+            "Shader": "default",
+            "Texture": "unicorn2.dds"
+        }
+    }
+}

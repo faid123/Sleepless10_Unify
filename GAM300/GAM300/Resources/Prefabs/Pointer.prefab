@@ -1,0 +1,121 @@
+{
+    "8": {
+        "ID": 8,
+        "Name": "Prefab_Pointer",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [40.0, -2.5, 0.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [100.0, 100.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": 1.0
+                    },
+                    {
+                        "Name": "MaterialCom/colour",
+                        "Type": "vectore3",
+                        "MaterialCom/colour": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "default"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "forward_shader"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "none"
+                    },
+                    {
+                        "Name": "MaterialCom/HSV",
+                        "Type": "vectore3",
+                        "MaterialCom/HSV": [1.0, 1.0, 1.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "SpriteCom",
+                "Properties": [
+                    {
+                        "Name": "SpriteCom/SpriteName",
+                        "Type": "string",
+                        "SpriteCom/SpriteName": "UnicornPointer"
+                    },
+                    {
+                        "Name": "SpriteCom/Alpha Value",
+                        "Type": "float",
+                        "SpriteCom/Alpha Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Brightness Value",
+                        "Type": "float",
+                        "SpriteCom/Brightness Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Colour Modifer",
+                        "Type": "vectore3",
+                        "SpriteCom/Colour Modifer": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "SpriteCom/Draw Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Draw Sprite": true
+                    },
+                    {
+                        "Name": "SpriteCom/Render in 3D",
+                        "Type": "bool",
+                        "SpriteCom/Render in 3D": false
+                    },
+                    {
+                        "Name": "SpriteCom/Use Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Use Sprite": true
+                    },
+                    {
+                        "Name": "SpriteCom/Is a bar",
+                        "Type": "bool",
+                        "SpriteCom/Is a bar": false
+                    },
+                    {
+                        "Name": "SpriteCom/Bar Percentage",
+                        "Type": "float",
+                        "SpriteCom/Bar Percentage": 100.0
+                    },
+                    {
+                        "Name": "SpriteCom/bar offset X",
+                        "Type": "float",
+                        "SpriteCom/bar offset X": 0.0
+                    }
+                ]
+            }
+        ]
+    }
+}

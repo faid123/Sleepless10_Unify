@@ -1,0 +1,662 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3181effc-6863-4404-a422-5cba0da4f111}</ProjectGuid>
+    <RootNamespace>GAM300</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\prop-pages\_release.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\prop-pages\opengl-glfw-glew-glm-stb-imgui.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\prop-pages\opengl-glfw-glew-glm-stb-imgui2.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent />
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3dll.lib;FreeImage.lib;freetype.lib;PhysX_64.lib;LowLevel_static_64.lib;LowLevelAABB_static_64.lib;LowLevelDynamics_static_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXCommon_64.lib;PhysXCooking_64.lib;PhysXExtensions_static_64.lib;PhysXFoundation_64.lib;PhysXPvdSDK_static_64.lib;PhysXTask_static_64.lib;PhysXVehicle_static_64.lib;SceneQuery_static_64.lib;SimulationController_static_64.lib;SnippetRender_static_64.lib;SnippetUtils_static_64.lib;fmod_vc.lib;assimp-vc140-mt.lib;lua54.lib;SOIL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent />
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\lib\imgui-docking\backends\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\lib\imgui-docking\imgui.cpp" />
+    <ClCompile Include="..\lib\imgui-docking\ImGuiFileBrowser.cpp" />
+    <ClCompile Include="..\lib\imgui-docking\imgui_demo.cpp" />
+    <ClCompile Include="..\lib\imgui-docking\imgui_draw.cpp" />
+    <ClCompile Include="..\lib\imgui-docking\imgui_widgets.cpp" />
+    <ClCompile Include="..\lib\imgui-master\examples\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\lib\ImGuizmo\ImCurveEdit.cpp" />
+    <ClCompile Include="..\lib\ImGuizmo\ImGradient.cpp" />
+    <ClCompile Include="..\lib\ImGuizmo\ImGuizmo.cpp" />
+    <ClCompile Include="..\lib\ImGuizmo\ImSequencer.cpp" />
+    <ClCompile Include="BasedEngine\Animation\AnimationCom.cpp" />
+    <ClCompile Include="BasedEngine\Animation\AnimationSystem.cpp" />
+    <ClCompile Include="BasedEngine\Animation\Skinned_Mesh.cpp" />
+    <ClCompile Include="BasedEngine\Animation\SpriteAnimation.cpp" />
+    <ClCompile Include="BasedEngine\Audio\AudioSrcCom.cpp" />
+    <ClCompile Include="BasedEngine\Audio\AudioSystem.cpp" />
+    <ClCompile Include="BasedEngine\Assert\Assert.cpp" />
+    <ClCompile Include="BasedEngine\Audio\Sound.cpp" />
+    <ClCompile Include="BasedEngine\Camera\CameraSystem\CameraSystem.cpp" />
+    <ClCompile Include="BasedEngine\ECS\ECS.cpp" />
+    <ClCompile Include="BasedEngine\ECS\Entity\Entity.cpp" />
+    <ClCompile Include="BasedEngine\ECS\Serializer\ISerializer.cpp" />
+    <ClCompile Include="BasedEngine\ECS\Serializer\EntitySerializer.cpp" />
+    <ClCompile Include="BasedEngine\ECS\Serializer\ComponnentsSerializer.cpp" />
+    <ClCompile Include="BasedEngine\ECS\Serializer\SerializerSystem.cpp" />
+    <ClCompile Include="BasedEngine\ECS\System\System.cpp" />
+    <ClCompile Include="BasedEngine\Editor\EditorSystem\EditorSystem.cpp" />
+    <ClCompile Include="BasedEngine\Editor\EditorSystem\EditorUI.cpp" />
+    <ClCompile Include="BasedEngine\Engine.cpp" />
+    <ClCompile Include="BasedEngine\Event\EventEmitter.cpp" />
+    <ClCompile Include="BasedEngine\Event\iEventSystem.cpp" />
+    <ClCompile Include="BasedEngine\Event\Testevent.cpp" />
+    <ClCompile Include="BasedEngine\Graphics\DDSLoader\ModelLoader.cpp" />
+    <ClCompile Include="BasedEngine\Graphics\FreeType\text.cpp" />
+    <ClCompile Include="BasedEngine\Graphics\GLmodel\GLmodel.cpp" />
+    <ClCompile Include="BasedEngine\Graphics\GLshader\glslshader.cpp" />
+    <ClCompile Include="BasedEngine\Graphics\Graphics\Graphics.cpp" />
+    <ClCompile Include="BasedEngine\Graphics\RenderSystem\RenderSystem.cpp" />
+    <ClCompile Include="BasedEngine\Graphics\Window\Input\Input.cpp" />
+    <ClCompile Include="BasedEngine\Graphics\Window\Time\Time.cpp" />
+    <ClCompile Include="BasedEngine\Graphics\Window\Window\Window.cpp" />
+    <ClCompile Include="BasedEngine\Logic\Lua\LuaComponentBindings.cpp" />
+    <ClCompile Include="BasedEngine\Logic\Lua\LuaECSBindings.cpp" />
+    <ClCompile Include="BasedEngine\Logic\Lua\LuaInputBindings.cpp" />
+    <ClCompile Include="BasedEngine\Logic\Lua\LuaMathBindings.cpp" />
+    <ClCompile Include="BasedEngine\Logic\Lua\LuaScriptCom.cpp" />
+    <ClCompile Include="BasedEngine\Logic\Lua\LuaSystemBindings.cpp" />
+    <ClCompile Include="BasedEngine\Logic\Lua\ScriptingSystem.cpp" />
+    <ClCompile Include="BasedEngine\MathLib\Converter.cpp" />
+    <ClCompile Include="BasedEngine\MathLib\Matrix2.cpp" />
+    <ClCompile Include="BasedEngine\MathLib\Matrix3.cpp" />
+    <ClCompile Include="BasedEngine\MathLib\Matrix4.cpp" />
+    <ClCompile Include="BasedEngine\MathLib\Precompiled.cpp" />
+    <ClCompile Include="BasedEngine\MathLib\Quat.cpp" />
+    <ClCompile Include="BasedEngine\MathLib\Random.cpp" />
+    <ClCompile Include="BasedEngine\MathLib\Vector2.cpp" />
+    <ClCompile Include="BasedEngine\MathLib\Vector3.cpp" />
+    <ClCompile Include="BasedEngine\MathLib\Vector4.cpp" />
+    <ClCompile Include="BasedEngine\Particles\EmitterComponent.cpp" />
+    <ClCompile Include="BasedEngine\Particles\ParticleComponent.cpp" />
+    <ClCompile Include="BasedEngine\Particles\ParticleSystem.cpp" />
+    <ClCompile Include="BasedEngine\Physics\ContactReportCallback.cpp" />
+    <ClCompile Include="BasedEngine\Physics\PhysicsSystem.cpp" />
+    <ClCompile Include="BasedEngine\Physics\RigidBodyComponent.cpp" />
+    <ClCompile Include="BasedEngine\Prefabs\PrefabsManager.cpp" />
+    <ClCompile Include="BasedEngine\ResourceManager\ResourceManager.cpp" />
+    <ClCompile Include="BasedEngine\UserIntered\UICom.cpp" />
+    <ClCompile Include="BasedEngine\UserIntered\UI_Logic.cpp" />
+    <ClCompile Include="BasedEngine\UserIntered\UI_System.cpp" />
+    <ClCompile Include="BasedEngine\VideoReader\video_reader.cpp" />
+    <ClCompile Include="Src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\lib\imgui-docking\backends\imgui_impl_glfw.h" />
+    <ClInclude Include="..\lib\imgui-docking\dirent.h" />
+    <ClInclude Include="..\lib\imgui-docking\imconfig.h" />
+    <ClInclude Include="..\lib\imgui-docking\imgui.h" />
+    <ClInclude Include="..\lib\imgui-docking\ImGuiFileBrowser.h" />
+    <ClInclude Include="..\lib\imgui-docking\imgui_internal.h" />
+    <ClInclude Include="..\lib\imgui-docking\imstb_rectpack.h" />
+    <ClInclude Include="..\lib\imgui-docking\imstb_textedit.h" />
+    <ClInclude Include="..\lib\imgui-docking\imstb_truetype.h" />
+    <ClInclude Include="..\lib\imgui-master\examples\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\lib\ImGuizmo\ImCurveEdit.h" />
+    <ClInclude Include="..\lib\ImGuizmo\ImGradient.h" />
+    <ClInclude Include="..\lib\ImGuizmo\ImGuizmo.h" />
+    <ClInclude Include="..\lib\ImGuizmo\ImSequencer.h" />
+    <ClInclude Include="..\lib\ImGuizmo\ImZoomSlider.h" />
+    <ClInclude Include="BasedEngine\Animation\AnimationCom.h" />
+    <ClInclude Include="BasedEngine\Animation\AnimationSystem.h" />
+    <ClInclude Include="BasedEngine\Animation\Skinned_Mesh.h" />
+    <ClInclude Include="BasedEngine\Animation\SpriteAnimation.h" />
+    <ClInclude Include="BasedEngine\Audio\AudioSrcCom.h" />
+    <ClInclude Include="BasedEngine\Audio\AudioSystem.h" />
+    <ClInclude Include="BasedEngine\Assert\Assert.h" />
+    <ClInclude Include="BasedEngine\Audio\Sound.h" />
+    <ClInclude Include="BasedEngine\Camera\CameraCom.h" />
+    <ClInclude Include="BasedEngine\Camera\CameraSystem\CameraSystem.h" />
+    <ClInclude Include="BasedEngine\ECS\Component\Component.h" />
+    <ClInclude Include="BasedEngine\ECS\Component\ComponentManager.h" />
+    <ClInclude Include="BasedEngine\ECS\ECS.h" />
+    <ClInclude Include="BasedEngine\ECS\ECSType.h" />
+    <ClInclude Include="BasedEngine\ECS\Entity\Entity.h" />
+    <ClInclude Include="BasedEngine\ECS\Serializer\ISerializer.h" />
+    <ClInclude Include="BasedEngine\ECS\Serializer\SerializerSystem.h" />
+    <ClInclude Include="BasedEngine\ECS\Serializer\Settings.h" />
+    <ClInclude Include="BasedEngine\ECS\System\System.h" />
+    <ClInclude Include="BasedEngine\Editor\EditorSystem\EditorSystem.h" />
+    <ClInclude Include="BasedEngine\Editor\EditorSystem\EditorUI.h" />
+    <ClInclude Include="BasedEngine\Engine.h" />
+    <ClInclude Include="BasedEngine\Event\Event.h" />
+    <ClInclude Include="BasedEngine\Event\EventEmitter.h" />
+    <ClInclude Include="BasedEngine\Event\iEventSystem.h" />
+    <ClInclude Include="BasedEngine\Event\Testevent.h" />
+    <ClInclude Include="BasedEngine\GameState.h" />
+    <ClInclude Include="BasedEngine\Graphics\DDSLoader\ModelLoader.h" />
+    <ClInclude Include="BasedEngine\Graphics\framework.h" />
+    <ClInclude Include="BasedEngine\Graphics\FreeType\stb_image.h" />
+    <ClInclude Include="BasedEngine\Graphics\FreeType\text.h" />
+    <ClInclude Include="BasedEngine\Graphics\GLmodel\GLmodel.h" />
+    <ClInclude Include="BasedEngine\Graphics\GLshader\glslshader.h" />
+    <ClInclude Include="BasedEngine\Graphics\Graphics\Graphics.h" />
+    <ClInclude Include="BasedEngine\Graphics\LightCom.h" />
+    <ClInclude Include="BasedEngine\Graphics\MaterialCom.h" />
+    <ClInclude Include="BasedEngine\Graphics\RenderSystem\RenderSystem.h" />
+    <ClInclude Include="BasedEngine\Graphics\SpriteCom.h" />
+    <ClInclude Include="BasedEngine\Graphics\targetver.h" />
+    <ClInclude Include="BasedEngine\Graphics\TextCom.h" />
+    <ClInclude Include="BasedEngine\Graphics\texture.h" />
+    <ClInclude Include="BasedEngine\Graphics\TransformCom.h" />
+    <ClInclude Include="BasedEngine\Graphics\Viewport.h" />
+    <ClInclude Include="BasedEngine\Graphics\Window\Input\Input.h" />
+    <ClInclude Include="BasedEngine\Graphics\Window\Time\Time.h" />
+    <ClInclude Include="BasedEngine\Graphics\Window\Window\Window.h" />
+    <ClInclude Include="BasedEngine\Logic\Lua\LuaScriptCom.h" />
+    <ClInclude Include="BasedEngine\Logic\Lua\ScriptingSystem.h" />
+    <ClInclude Include="BasedEngine\MathLib\Converter.h" />
+    <ClInclude Include="BasedEngine\MathLib\Matrix2.h" />
+    <ClInclude Include="BasedEngine\MathLib\Matrix3.h" />
+    <ClInclude Include="BasedEngine\MathLib\Matrix4.h" />
+    <ClInclude Include="BasedEngine\MathLib\Precompiled.h" />
+    <ClInclude Include="BasedEngine\MathLib\Quat.h" />
+    <ClInclude Include="BasedEngine\MathLib\Random.h" />
+    <ClInclude Include="BasedEngine\MathLib\Vector2.h" />
+    <ClInclude Include="BasedEngine\MathLib\Vector3.h" />
+    <ClInclude Include="BasedEngine\MathLib\Vector4.h" />
+    <ClInclude Include="BasedEngine\Particles\EmitterComponent.h" />
+    <ClInclude Include="BasedEngine\Particles\ParticleComponent.h" />
+    <ClInclude Include="BasedEngine\Particles\ParticleSystem.h" />
+    <ClInclude Include="BasedEngine\Physics\ContactReportCallback.h" />
+    <ClInclude Include="BasedEngine\Physics\PhysicsSystem.h" />
+    <ClInclude Include="BasedEngine\Physics\RigidBodyComponent.h" />
+    <ClInclude Include="BasedEngine\Prefabs\PrefabsManager.h" />
+    <ClInclude Include="BasedEngine\ResourceManager\ResourceManager.h" />
+    <ClInclude Include="BasedEngine\UserIntered\UI_Logic.h" />
+    <ClInclude Include="BasedEngine\UserIntered\UI_System.h" />
+    <ClInclude Include="BasedEngine\UserIntered\UICom.h" />
+    <ClInclude Include="BasedEngine\VideoReader\video_reader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\shaders\forward.frag" />
+    <None Include="..\shaders\forward.vert" />
+    <None Include="..\shaders\FragmentShader.frag" />
+    <None Include="..\shaders\framebuffer_screen.frag" />
+    <None Include="..\shaders\framebuffer_screen.vert" />
+    <None Include="..\shaders\simple_shadowmap.frag" />
+    <None Include="..\shaders\simple_shadowmap.vert" />
+    <None Include="..\shaders\skybox.frag" />
+    <None Include="..\shaders\skybox.vert" />
+    <None Include="..\shaders\vertexShader.vert" />
+    <None Include="..\shaders\wireframe_Shader.frag" />
+    <None Include="..\shaders\wireframe_Shader.vert" />
+    <None Include="Resources\Prefabs\3_BossHomingRocket.prefab" />
+    <None Include="Resources\Prefabs\3_BossLowerTurr.prefab" />
+    <None Include="Resources\Prefabs\3_BossRockShower.prefab" />
+    <None Include="Resources\Prefabs\3_BossUpperTurr.prefab" />
+    <None Include="Resources\Prefabs\3_Boss_Head.prefab" />
+    <None Include="Resources\Prefabs\AAABossDefeatCutscene.prefab" />
+    <None Include="Resources\Prefabs\AAABossIntroCutscene.prefab" />
+    <None Include="Resources\Prefabs\AAACutSceneMap1.prefab" />
+    <None Include="Resources\Prefabs\AAAIntroCutscene.prefab" />
+    <None Include="Resources\Prefabs\AAFrontBGCutscene.prefab" />
+    <None Include="Resources\Prefabs\AmmoCube.prefab" />
+    <None Include="Resources\Prefabs\Army.prefab" />
+    <None Include="Resources\Prefabs\ArmyBase.prefab" />
+    <None Include="Resources\Prefabs\ArmyCar.prefab" />
+    <None Include="Resources\Prefabs\armyScenario.prefab" />
+    <None Include="Resources\Prefabs\Army_Spawner.prefab" />
+    <None Include="Resources\Prefabs\Barrier.prefab" />
+    <None Include="Resources\Prefabs\BasicCar.prefab" />
+    <None Include="Resources\Prefabs\BasicCarB.prefab" />
+    <None Include="Resources\Prefabs\BasicTile.prefab" />
+    <None Include="Resources\Prefabs\Bench.prefab" />
+    <None Include="Resources\Prefabs\Bench_Fence.prefab" />
+    <None Include="Resources\Prefabs\BendRoad.prefab" />
+    <None Include="Resources\Prefabs\Boss2_Body.prefab" />
+    <None Include="Resources\Prefabs\BossHeadLvl3.prefab" />
+    <None Include="Resources\Prefabs\BossPanel.prefab" />
+    <None Include="Resources\Prefabs\BossPanelLvl2.prefab" />
+    <None Include="Resources\Prefabs\BossRocket.prefab" />
+    <None Include="Resources\Prefabs\BossRocket1.prefab" />
+    <None Include="Resources\Prefabs\Boss_Head.prefab" />
+    <None Include="Resources\Prefabs\Boss_Head_Test.prefab" />
+    <None Include="Resources\Prefabs\Boss_Laser.prefab" />
+    <None Include="Resources\Prefabs\Boss_LowerBody.prefab" />
+    <None Include="Resources\Prefabs\Boss_LowerLaser1.prefab" />
+    <None Include="Resources\Prefabs\Boss_UpperBody.prefab" />
+    <None Include="Resources\Prefabs\Boss_UpperLaser1.prefab" />
+    <None Include="Resources\Prefabs\Boss_UpperLaser2.prefab" />
+    <None Include="Resources\Prefabs\Boss_UpperLaser3.prefab" />
+    <None Include="Resources\Prefabs\brightness_bar.prefab" />
+    <None Include="Resources\Prefabs\Building1.prefab" />
+    <None Include="Resources\Prefabs\Building2.prefab" />
+    <None Include="Resources\Prefabs\Building3.prefab" />
+    <None Include="Resources\Prefabs\Building4.prefab" />
+    <None Include="Resources\Prefabs\Building5.prefab" />
+    <None Include="Resources\Prefabs\Building6.prefab" />
+    <None Include="Resources\Prefabs\Building7.prefab" />
+    <None Include="Resources\Prefabs\buildingScenario.prefab" />
+    <None Include="Resources\Prefabs\Bullet.prefab" />
+    <None Include="Resources\Prefabs\Button_MainMenu.prefab" />
+    <None Include="Resources\Prefabs\Cage.prefab" />
+    <None Include="Resources\Prefabs\Camera.prefab" />
+    <None Include="Resources\Prefabs\Car.prefab" />
+    <None Include="Resources\Prefabs\CasualCivi.prefab" />
+    <None Include="Resources\Prefabs\Circus.prefab" />
+    <None Include="Resources\Prefabs\CircusSmall.prefab" />
+    <None Include="Resources\Prefabs\Civilian.prefab" />
+    <None Include="Resources\Prefabs\civilianScenario.prefab" />
+    <None Include="Resources\Prefabs\Civilian_S.prefab" />
+    <None Include="Resources\Prefabs\Civilian_Scenario.prefab" />
+    <None Include="Resources\Prefabs\Civilian_Spawner.prefab" />
+    <None Include="Resources\Prefabs\Clown.prefab" />
+    <None Include="Resources\Prefabs\ClownMinion.prefab" />
+    <None Include="Resources\Prefabs\clownScenario.prefab" />
+    <None Include="Resources\Prefabs\Constructor.prefab" />
+    <None Include="Resources\Prefabs\Cube.prefab" />
+    <None Include="Resources\Prefabs\ElectricTower.prefab" />
+    <None Include="Resources\Prefabs\Enemy.prefab" />
+    <None Include="Resources\Prefabs\EnemyBullet.prefab" />
+    <None Include="Resources\Prefabs\EnemyExplosion.prefab" />
+    <None Include="Resources\Prefabs\EnemyRocket.prefab" />
+    <None Include="Resources\Prefabs\EnemyScenario.prefab" />
+    <None Include="Resources\Prefabs\EnemyWaveScenario.prefab" />
+    <None Include="Resources\Prefabs\Explosion.prefab" />
+    <None Include="Resources\Prefabs\ExplosionEffect.prefab" />
+    <None Include="Resources\Prefabs\Fence.prefab" />
+    <None Include="Resources\Prefabs\FenceGate.prefab" />
+    <None Include="Resources\Prefabs\floor.prefab" />
+    <None Include="Resources\Prefabs\HealthBar.prefab" />
+    <None Include="Resources\Prefabs\Helicopter.prefab" />
+    <None Include="Resources\Prefabs\HelicopterEnemy.prefab" />
+    <None Include="Resources\Prefabs\HelicopterSpawner.prefab" />
+    <None Include="Resources\Prefabs\InvisWall (1).prefab" />
+    <None Include="Resources\Prefabs\InvisWall (2).prefab" />
+    <None Include="Resources\Prefabs\InvisWall (3).prefab" />
+    <None Include="Resources\Prefabs\InvisWall.prefab" />
+    <None Include="Resources\Prefabs\lAmmoCube.prefab" />
+    <None Include="Resources\Prefabs\LampPost.prefab" />
+    <None Include="Resources\Prefabs\LampPost_Fence.prefab" />
+    <None Include="Resources\Prefabs\Laser.prefab" />
+    <None Include="Resources\Prefabs\LaserScenarioTutorial.prefab" />
+    <None Include="Resources\Prefabs\LaserTarget.prefab" />
+    <None Include="Resources\Prefabs\Lights0.prefab" />
+    <None Include="Resources\Prefabs\mainmenu_buttons.prefab" />
+    <None Include="Resources\Prefabs\mainmenu_logo.prefab" />
+    <None Include="Resources\Prefabs\mainmenu_pointer.prefab" />
+    <None Include="Resources\Prefabs\man.prefab" />
+    <None Include="Resources\Prefabs\MiniMap_QuestMarker.prefab" />
+    <None Include="Resources\Prefabs\MinionExplosion.prefab" />
+    <None Include="Resources\Prefabs\MultipleSpawner.prefab" />
+    <None Include="Resources\Prefabs\ParticleDispenser.prefab" />
+    <None Include="Resources\Prefabs\PauseBG.prefab" />
+    <None Include="Resources\Prefabs\PauseButton_Menu.prefab" />
+    <None Include="Resources\Prefabs\PauseButton_Resume.prefab" />
+    <None Include="Resources\Prefabs\PauseTitle.prefab" />
+    <None Include="Resources\Prefabs\pause_buttons.prefab" />
+    <None Include="Resources\Prefabs\Pause_Button_MainMenu.prefab" />
+    <None Include="Resources\Prefabs\pause_gamma_bar.prefab" />
+    <None Include="Resources\Prefabs\pause_htp.prefab" />
+    <None Include="Resources\Prefabs\pause_options.prefab" />
+    <None Include="Resources\Prefabs\pause_pointer.prefab" />
+    <None Include="Resources\Prefabs\pause_vol_bar.prefab" />
+    <None Include="Resources\Prefabs\pause_yesno.prefab" />
+    <None Include="Resources\Prefabs\Player.prefab" />
+    <None Include="Resources\Prefabs\PlayerCamera1.prefab" />
+    <None Include="Resources\Prefabs\PlayerCamera2.prefab" />
+    <None Include="Resources\Prefabs\Pointer.prefab" />
+    <None Include="Resources\Prefabs\Police.prefab" />
+    <None Include="Resources\Prefabs\PoliceCar.prefab" />
+    <None Include="Resources\Prefabs\PoliceCarMove.prefab" />
+    <None Include="Resources\Prefabs\policeScenario.prefab" />
+    <None Include="Resources\Prefabs\PoliceStation.prefab" />
+    <None Include="Resources\Prefabs\Police_Spawner.prefab" />
+    <None Include="Resources\Prefabs\rAmmoCube.prefab" />
+    <None Include="Resources\Prefabs\RedSquare.prefab" />
+    <None Include="Resources\Prefabs\RiotShield.prefab" />
+    <None Include="Resources\Prefabs\RoadTile.prefab" />
+    <None Include="Resources\Prefabs\Rocket.prefab" />
+    <None Include="Resources\Prefabs\RocketTarget.prefab" />
+    <None Include="Resources\Prefabs\RocketTutorialScenario.prefab" />
+    <None Include="Resources\Prefabs\RV_Car.prefab" />
+    <None Include="Resources\Prefabs\ScenarioFence.prefab" />
+    <None Include="Resources\Prefabs\Shield.prefab" />
+    <None Include="Resources\Prefabs\shieldScenario.prefab" />
+    <None Include="Resources\Prefabs\Shield_Spawner.prefab" />
+    <None Include="Resources\Prefabs\SirenBuilding.prefab" />
+    <None Include="Resources\Prefabs\SirenCar.prefab" />
+    <None Include="Resources\Prefabs\Soldier.prefab" />
+    <None Include="Resources\Prefabs\SpeedLines.prefab" />
+    <None Include="Resources\Prefabs\Target.prefab" />
+    <None Include="Resources\Prefabs\TargetLED.prefab" />
+    <None Include="Resources\Prefabs\Tent.prefab" />
+    <None Include="Resources\Prefabs\Text.prefab" />
+    <None Include="Resources\Prefabs\Tree.prefab" />
+    <None Include="Resources\Prefabs\Tree2.prefab" />
+    <None Include="Resources\Prefabs\treeScenario.prefab" />
+    <None Include="Resources\Prefabs\UI_BossHealthBar.prefab" />
+    <None Include="Resources\Prefabs\UI_BossHealthColor.prefab" />
+    <None Include="Resources\Prefabs\UI_Cage_LaserHealth.prefab" />
+    <None Include="Resources\Prefabs\UI_Cage_PistolHealth.prefab" />
+    <None Include="Resources\Prefabs\UI_Cage_RocketHealth.prefab" />
+    <None Include="Resources\Prefabs\UI_Challenge.prefab" />
+    <None Include="Resources\Prefabs\UI_Crosshair.prefab" />
+    <None Include="Resources\Prefabs\UI_Health_Color.prefab" />
+    <None Include="Resources\Prefabs\UI_Health_UI.prefab" />
+    <None Include="Resources\Prefabs\UI_OBJ_Board.prefab" />
+    <None Include="Resources\Prefabs\UI_OBJ_Overload.prefab" />
+    <None Include="Resources\Prefabs\UI_PowerUp.prefab" />
+    <None Include="Resources\Prefabs\UI_PowerUp_Colour.prefab" />
+    <None Include="Resources\Prefabs\UI_PowerUP_Max.prefab" />
+    <None Include="Resources\Prefabs\UI_ThreatColor.prefab" />
+    <None Include="Resources\Prefabs\UI_ThreatIcon.prefab" />
+    <None Include="Resources\Prefabs\UI_ThreatUI.prefab" />
+    <None Include="Resources\Prefabs\UI_Weapon_Laser.prefab" />
+    <None Include="Resources\Prefabs\UI_Weapon_Pistol.prefab" />
+    <None Include="Resources\Prefabs\UI_Weapon_Rocket.prefab" />
+    <None Include="Resources\Prefabs\Vehicle_Spawner.prefab" />
+    <None Include="Resources\Prefabs\volume_bar.prefab" />
+    <None Include="Resources\Prefabs\Wall.prefab" />
+    <None Include="Resources\Prefabs\Weapon.prefab" />
+    <None Include="Resources\Prefabs\WeaponCase.prefab" />
+    <None Include="Resources\Prefabs\WeaponTest1.prefab" />
+    <None Include="Resources\Prefabs\WeaponTest2.prefab" />
+    <None Include="Resources\Prefabs\WoodenCrate.prefab" />
+    <None Include="Resources\Prefabs\yesno.prefab" />
+    <None Include="Resources\Prefabs\Zone4_BaseTile.prefab" />
+    <None Include="Resources\Scene\ALightTest.scene" />
+    <None Include="Resources\Scene\Boss3Test.scene" />
+    <None Include="Resources\Scene\BossTest.scene" />
+    <None Include="Resources\Scene\cameraTest.scene" />
+    <None Include="Resources\Scene\default.scene" />
+    <None Include="Resources\Scene\DigipenLogo_StartScreen.scene" />
+    <None Include="Resources\Scene\DirLightShadow.scene" />
+    <None Include="Resources\Scene\EmptyBaseLevel.scene" />
+    <None Include="Resources\Scene\Final_Level1(with scenario).scene" />
+    <None Include="Resources\Scene\Final_Level1.scene" />
+    <None Include="Resources\Scene\Final_Level1.scene.bak" />
+    <None Include="Resources\Scene\Final_Level2(test w scenario).scene" />
+    <None Include="Resources\Scene\Final_Level2.scene" />
+    <None Include="Resources\Scene\Final_Level3.scene" />
+    <None Include="Resources\Scene\Final_Level3.scene.bak" />
+    <None Include="Resources\Scene\GameOver.scene" />
+    <None Include="Resources\Scene\Level1_LoadingScreen.scene" />
+    <None Include="Resources\Scene\Level2_LoadingScreen.scene" />
+    <None Include="Resources\Scene\Level3_LoadingScreen.scene" />
+    <None Include="Resources\Scene\LevelSelect.scene" />
+    <None Include="Resources\Scene\LuaTest.scene" />
+    <None Include="Resources\Scene\MainMenu.scene" />
+    <None Include="Resources\Scene\NewMainMenu(w civilians).scene" />
+    <None Include="Resources\Scene\OptionsMenu.scene" />
+    <None Include="Resources\Scene\ParticleTestSystem.scene" />
+    <None Include="Resources\Scene\PauseMenu.scene" />
+    <None Include="Resources\Scene\phytest.scene" />
+    <None Include="Resources\Scene\Scene1.scene" />
+    <None Include="Resources\Scene\Scene1cubeTest.scene" />
+    <None Include="Resources\Scene\Scene1Test.scene" />
+    <None Include="Resources\Scene\SegmentPrototype.scene" />
+    <None Include="Resources\Scene\TeamLogo_StartScreen.scene" />
+    <None Include="Resources\Scene\testUI.scene" />
+    <None Include="Resources\Scene\UI_test.scene" />
+    <None Include="Resources\Scene\VerticalSlice_1.scene" />
+    <None Include="Resources\Scene\VerticalSlice_1_Test.scene" />
+    <None Include="Resources\Scene\VerticalSlice_2.scene" />
+    <None Include="Resources\Scene\VerticalSlice_3.scene" />
+    <None Include="Resources\Scene\Win.scene" />
+    <None Include="Resources\Script\AmmoCubes.lua" />
+    <None Include="Resources\Script\ArmySpawner.lua" />
+    <None Include="Resources\Script\BarrierBehavior.lua" />
+    <None Include="Resources\Script\Boss3_LowerBody.lua" />
+    <None Include="Resources\Script\Boss3_UpperBody.lua" />
+    <None Include="Resources\Script\BossLaserBehaviour.lua" />
+    <None Include="Resources\Script\BossLvl3Head.lua" />
+    <None Include="Resources\Script\BossLvlHead.lua" />
+    <None Include="Resources\Script\Boss_Head.lua" />
+    <None Include="Resources\Script\Boss_LowerBody.lua" />
+    <None Include="Resources\Script\Boss_UpperBody.lua" />
+    <None Include="Resources\Script\BuildingBehaviour.lua" />
+    <None Include="Resources\Script\BulletBehavior.lua" />
+    <None Include="Resources\Script\CarBehaviour.lua" />
+    <None Include="Resources\Script\CarBehaviour2.lua" />
+    <None Include="Resources\Script\CarSpawner.lua" />
+    <None Include="Resources\Script\CasualCivi.lua" />
+    <None Include="Resources\Script\CivilianBehaviour.lua" />
+    <None Include="Resources\Script\CivilianScenario.lua" />
+    <None Include="Resources\Script\CivilianSpawner.lua" />
+    <None Include="Resources\Script\CameraBehaviour.lua" />
+    <None Include="Resources\Script\ClownBehavior.lua" />
+    <None Include="Resources\Script\ClownMinionBehavior.lua" />
+    <None Include="Resources\Script\ClownMinionNoAudio.lua" />
+    <None Include="Resources\Script\CollisionCamera.lua" />
+    <None Include="Resources\Script\ConstructorBehavior.lua" />
+    <None Include="Resources\Script\CutsceneBehavior_Intro3.lua" />
+    <None Include="Resources\Script\CutsceneBehavior_Map1.lua" />
+    <None Include="Resources\Script\EnemyBulletBehavior.lua" />
+    <None Include="Resources\Script\CutsceneBehavior_BossDefeat.lua" />
+    <None Include="Resources\Script\CutsceneBehavior_BossEnter.lua" />
+    <None Include="Resources\Script\CutsceneBehavior_Intro.lua" />
+    <None Include="Resources\Script\EnemyChase(old).lua" />
+    <None Include="Resources\Script\EnemyChase.lua" />
+    <None Include="Resources\Script\ColourCubes.lua" />
+    <None Include="Resources\Script\EnemyExplosionBehaviour.lua" />
+    <None Include="Resources\Script\EnemyRocketBehaviour.lua" />
+    <None Include="Resources\Script\EnemyScenario1.lua" />
+    <None Include="Resources\Script\EnemyWaveScenario.lua" />
+    <None Include="Resources\Script\EnemyWaveScenario1.lua" />
+    <None Include="Resources\Script\ExplosionEmitterBehavior.lua" />
+    <None Include="Resources\Script\GameOverScreen.lua" />
+    <None Include="Resources\Script\Fade_Black_Screen.lua" />
+    <None Include="Resources\Script\Gamma_FadeIn.lua" />
+    <None Include="Resources\Script\HelicopterEnemy.lua" />
+    <None Include="Resources\Script\HeliTarget.lua" />
+    <None Include="Resources\Script\HomingWep_Boss.lua" />
+    <None Include="Resources\Script\HomingWep_Boss3.lua" />
+    <None Include="Resources\Script\LaserTutorialScenario.lua" />
+    <None Include="Resources\Script\Level3Generator.lua" />
+    <None Include="Resources\Script\Level1ColourBuilding.lua" />
+    <None Include="Resources\Script\Level2ConsecutivelyKill.lua" />
+    <None Include="Resources\Script\ExplosionBehavior.lua" />
+    <None Include="Resources\Script\LaserBehaviour.lua" />
+    <None Include="Resources\Script\Load_Level1to2.lua" />
+    <None Include="Resources\Script\Load_Level2to3.lua" />
+    <None Include="Resources\Script\MainMenu.lua" />
+    <None Include="Resources\Script\MultipleSpawner.lua" />
+    <None Include="Resources\Script\ObjBoard.lua" />
+    <None Include="Resources\Script\OptionsMenu.lua" />
+    <None Include="Resources\Script\ParticleDispenser.lua" />
+    <None Include="Resources\Script\MinionExplosion.lua" />
+    <None Include="Resources\Script\ObjTextUIManager.lua" />
+    <None Include="Resources\Script\PlayerBehavior.lua" />
+    <None Include="Resources\Script\PoliceSpawner.lua" />
+    <None Include="Resources\Script\RangeEnemy.lua" />
+    <None Include="Resources\Script\RiotShieldBehavior.lua" />
+    <None Include="Resources\Script\RocketBehavior.lua" />
+    <None Include="Resources\Script\RocketHomingBehaviour.lua" />
+    <None Include="Resources\Script\RocketShowerBehaviour.lua" />
+    <None Include="Resources\Script\RocketTutorialScenario.lua" />
+    <None Include="Resources\Script\ScenarioTarget.lua" />
+    <None Include="Resources\Script\ShieldEnemy.lua" />
+    <None Include="Resources\Script\ShieldScenario.lua" />
+    <None Include="Resources\Script\ShieldSpawner.lua" />
+    <None Include="Resources\Script\ShowersWep_Boss.lua" />
+    <None Include="Resources\Script\ShowersWep_Boss3.lua" />
+    <None Include="Resources\Script\Simple_FadeBlack.lua" />
+    <None Include="Resources\Script\Simple_FadeIn.lua" />
+    <None Include="Resources\Script\SoldierWaveScenario.lua" />
+    <None Include="Resources\Script\SpeedlindBehaviour.lua" />
+    <None Include="Resources\Script\temptest.lua" />
+    <None Include="Resources\AudioFiles\AudioFiles.json" />
+    <None Include="Resources\Script\UnifyScenario.lua" />
+    <None Include="Resources\Script\WeaponBehavior.lua" />
+    <None Include="Resources\Shaders\FontShader.frag" />
+    <None Include="Resources\Shaders\FontShader.vert" />
+    <None Include="Resources\Shaders\forward.frag" />
+    <None Include="Resources\Shaders\forward.frag.bak" />
+    <None Include="Resources\Shaders\forward.vert" />
+    <None Include="Resources\Shaders\forward.vert.bak" />
+    <None Include="Resources\Shaders\FragmentShader.frag" />
+    <None Include="Resources\Shaders\framebuffer_screen.frag" />
+    <None Include="Resources\Shaders\framebuffer_screen.vert" />
+    <None Include="Resources\Shaders\simple_minimap.frag" />
+    <None Include="Resources\Shaders\simple_minimap.vert" />
+    <None Include="Resources\Shaders\simple_shadowmap.frag" />
+    <None Include="Resources\Shaders\simple_shadowmap.geom" />
+    <None Include="Resources\Shaders\simple_shadowmap.vert" />
+    <None Include="Resources\Shaders\skinning.frag" />
+    <None Include="Resources\Shaders\skinning.vert" />
+    <None Include="Resources\Shaders\skybox.frag" />
+    <None Include="Resources\Shaders\skybox.vert" />
+    <None Include="Resources\Shaders\UI3DShader.frag" />
+    <None Include="Resources\Shaders\UI3DShader.vert" />
+    <None Include="Resources\Shaders\UIShader.frag" />
+    <None Include="Resources\Shaders\UIShader.vert" />
+    <None Include="Resources\Shaders\vertexShader.vert" />
+    <None Include="Resources\Shaders\wireframe_Shader.frag" />
+    <None Include="Resources\Shaders\wireframe_Shader.vert" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,71 @@
+{
+    "0": {
+        "ID": 0,
+        "Name": "Prefab_Camera",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "CameraCom",
+                "Properties": [
+                    {
+                        "Name": "CameraCom/_pos",
+                        "Type": "vectore3",
+                        "CameraCom/_pos": [102.61518096923828, 12.960121154785157, 217.8115692138672]
+                    },
+                    {
+                        "Name": "CameraCom/_up",
+                        "Type": "vectore3",
+                        "CameraCom/_up": [0.0, 0.9776000380516052, 0.21047121286392213]
+                    },
+                    {
+                        "Name": "CameraCom/_displaceRight",
+                        "Type": "float",
+                        "CameraCom/_displaceRight": 1.0
+                    },
+                    {
+                        "Name": "CameraCom/_displaceUp",
+                        "Type": "float",
+                        "CameraCom/_displaceUp": 1.0
+                    },
+                    {
+                        "Name": "CameraCom/_displaceFor",
+                        "Type": "float",
+                        "CameraCom/_displaceFor": 1.0
+                    },
+                    {
+                        "Name": "CameraCom/_movementSpeed",
+                        "Type": "float",
+                        "CameraCom/_movementSpeed": 120.0
+                    },
+                    {
+                        "Name": "CameraCom/_rotation",
+                        "Type": "vectore3",
+                        "CameraCom/_rotation": [-347.85003662109377, -6858.1298828125, 0.0]
+                    },
+                    {
+                        "Name": "CameraCom/_m_fov",
+                        "Type": "float",
+                        "CameraCom/_m_fov": 45.0
+                    },
+                    {
+                        "Name": "CameraCom/_m_near",
+                        "Type": "float",
+                        "CameraCom/_m_near": 1.0
+                    },
+                    {
+                        "Name": "CameraCom/_m_far",
+                        "Type": "float",
+                        "CameraCom/_m_far": 3000.0
+                    },
+                    {
+                        "Name": "CameraCom/_aggressive",
+                        "Type": "float",
+                        "CameraCom/_aggressive": 10.0
+                    }
+                ]
+            }
+        ]
+    }
+}

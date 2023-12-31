@@ -1,0 +1,1208 @@
+{
+    "0": {
+        "Name": "Camera",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "CameraCom",
+                "Properties": [
+                    {
+                        "Name": "CameraCom/_pos",
+                        "Type": "vectore3",
+                        "CameraCom/_pos": [-1.0356699228286744, 2.1924750804901125, 7.265799522399902]
+                    },
+                    {
+                        "Name": "CameraCom/_up",
+                        "Type": "vectore3",
+                        "CameraCom/_up": [0.0, 0.9994881749153137, 0.03199027106165886]
+                    },
+                    {
+                        "Name": "CameraCom/_displaceRight",
+                        "Type": "float",
+                        "CameraCom/_displaceRight": 1.0
+                    },
+                    {
+                        "Name": "CameraCom/_displaceUp",
+                        "Type": "float",
+                        "CameraCom/_displaceUp": 1.0
+                    },
+                    {
+                        "Name": "CameraCom/_displaceFor",
+                        "Type": "float",
+                        "CameraCom/_displaceFor": 1.0
+                    },
+                    {
+                        "Name": "CameraCom/_movementSpeed",
+                        "Type": "float",
+                        "CameraCom/_movementSpeed": 20.0
+                    },
+                    {
+                        "Name": "CameraCom/_rotation",
+                        "Type": "vectore3",
+                        "CameraCom/_rotation": [1.83322012424469, -1094.501708984375, 0.0]
+                    },
+                    {
+                        "Name": "CameraCom/_m_fov",
+                        "Type": "float",
+                        "CameraCom/_m_fov": 45.0
+                    },
+                    {
+                        "Name": "CameraCom/_m_near",
+                        "Type": "float",
+                        "CameraCom/_m_near": 1.0
+                    },
+                    {
+                        "Name": "CameraCom/_m_far",
+                        "Type": "float",
+                        "CameraCom/_m_far": 200.0
+                    },
+                    {
+                        "Name": "CameraCom/_aggressive",
+                        "Type": "float",
+                        "CameraCom/_aggressive": 10.0
+                    }
+                ]
+            }
+        ]
+    },
+    "1": {
+        "Name": "Player",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [1.7959818840026856, 2.3806533813476564, 0.7262507081031799]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [0.10000000149011612, 0.10000000149011612, 0.10000000149011612]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [179.98562622070313, -67.00009155273438, -179.9993438720703]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "CameraCom",
+                "Properties": [
+                    {
+                        "Name": "CameraCom/_pos",
+                        "Type": "vectore3",
+                        "CameraCom/_pos": [-21.20559310913086, 14.535880088806153, 5.145066261291504]
+                    },
+                    {
+                        "Name": "CameraCom/_up",
+                        "Type": "vectore3",
+                        "CameraCom/_up": [11.079471588134766, 15.972709655761719, 4.702958106994629]
+                    },
+                    {
+                        "Name": "CameraCom/_displaceRight",
+                        "Type": "float",
+                        "CameraCom/_displaceRight": 1.0
+                    },
+                    {
+                        "Name": "CameraCom/_displaceUp",
+                        "Type": "float",
+                        "CameraCom/_displaceUp": 1.0
+                    },
+                    {
+                        "Name": "CameraCom/_displaceFor",
+                        "Type": "float",
+                        "CameraCom/_displaceFor": 6.0
+                    },
+                    {
+                        "Name": "CameraCom/_movementSpeed",
+                        "Type": "float",
+                        "CameraCom/_movementSpeed": 1.0
+                    },
+                    {
+                        "Name": "CameraCom/_rotation",
+                        "Type": "vectore3",
+                        "CameraCom/_rotation": [-37.0, 247.0, 0.0]
+                    },
+                    {
+                        "Name": "CameraCom/_m_fov",
+                        "Type": "float",
+                        "CameraCom/_m_fov": 45.0
+                    },
+                    {
+                        "Name": "CameraCom/_m_near",
+                        "Type": "float",
+                        "CameraCom/_m_near": 1.0
+                    },
+                    {
+                        "Name": "CameraCom/_m_far",
+                        "Type": "float",
+                        "CameraCom/_m_far": 200.0
+                    },
+                    {
+                        "Name": "CameraCom/_aggressive",
+                        "Type": "float",
+                        "CameraCom/_aggressive": 10.0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "RigidDynamicCom",
+                "Properties": [
+                    {
+                        "Name": "RigidDynamicCom/rigidPos",
+                        "Type": "vectore3",
+                        "RigidDynamicCom/rigidPos": [1.7959818840026856, 2.3806533813476564, 0.7262507081031799]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/rigidScale",
+                        "Type": "vectore3",
+                        "RigidDynamicCom/rigidScale": [1.0, 4.0, 3.0]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/rigidRot",
+                        "Type": "quat",
+                        "RigidDynamicCom/rigidRot": [-0.00006442466838052496, -0.8338853716850281, -0.00010143910913029686, 0.5519376397132874]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/mass",
+                        "Type": "float",
+                        "RigidDynamicCom/mass": 10.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/staticFriction",
+                        "Type": "float",
+                        "RigidDynamicCom/staticFriction": 0.5
+                    },
+                    {
+                        "Name": "RigidDynamicCom/dynamicFriction",
+                        "Type": "float",
+                        "RigidDynamicCom/dynamicFriction": 0.5
+                    },
+                    {
+                        "Name": "RigidDynamicCom/restitution",
+                        "Type": "float",
+                        "RigidDynamicCom/restitution": 0.10000000149011612
+                    },
+                    {
+                        "Name": "RigidDynamicCom/linearDamp",
+                        "Type": "float",
+                        "RigidDynamicCom/linearDamp": 5.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/angularDamp",
+                        "Type": "float",
+                        "RigidDynamicCom/angularDamp": 0.0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": -107374176.0
+                    },
+                    {
+                        "Name": "MaterialCom/colour",
+                        "Type": "vectore3",
+                        "MaterialCom/colour": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "unicorn"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "default"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "unicorn"
+                    },
+                    {
+                        "Name": "MaterialCom/HSV",
+                        "Type": "vectore3",
+                        "MaterialCom/HSV": [1.0, 1.0, 1.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "uaScriptCom",
+                "Properties": [
+                    {
+                        "Name": "LuaScriptCom/mScriptPath",
+                        "Type": "string",
+                        "LuaScriptCom/mScriptPath": ".//Resources//Script\\PlayerBehavior.lua"
+                    }
+                ]
+            }
+        ]
+    },
+    "2": {
+        "Name": "Floor",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [0.0, 0.0, -15.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [100.0, 1.0, 100.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "RigidStaticCom",
+                "Properties": [
+                    {
+                        "Name": "RigidStaticCom/rigidPos",
+                        "Type": "vectore3",
+                        "RigidStaticCom/rigidPos": [0.0, 0.0, -15.0]
+                    },
+                    {
+                        "Name": "RigidStaticCom/rigidScale",
+                        "Type": "vectore3",
+                        "RigidStaticCom/rigidScale": [100.0, 1.0, 100.0]
+                    },
+                    {
+                        "Name": "RigidStaticCom/rigidRot",
+                        "Type": "quat",
+                        "RigidStaticCom/rigidRot": [0.0, 0.0, 0.0, 1.0]
+                    },
+                    {
+                        "Name": "RigidStaticCom/staticFriction",
+                        "Type": "float",
+                        "RigidStaticCom/staticFriction": 0.0
+                    },
+                    {
+                        "Name": "RigidStaticCom/dynamicFriction",
+                        "Type": "float",
+                        "RigidStaticCom/dynamicFriction": 0.0
+                    },
+                    {
+                        "Name": "RigidStaticCom/restitution",
+                        "Type": "float",
+                        "RigidStaticCom/restitution": 0.0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": -107374176.0
+                    },
+                    {
+                        "Name": "MaterialCom/colour",
+                        "Type": "vectore3",
+                        "MaterialCom/colour": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "default"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "default"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "none"
+                    },
+                    {
+                        "Name": "MaterialCom/HSV",
+                        "Type": "vectore3",
+                        "MaterialCom/HSV": [1.0, 1.0, 1.0]
+                    }
+                ]
+            }
+        ]
+    },
+    "3": {
+        "Name": "Man",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [4.0, 20.0, -80.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": -107374176.0
+                    },
+                    {
+                        "Name": "MaterialCom/colour",
+                        "Type": "vectore3",
+                        "MaterialCom/colour": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "unicorn"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "default"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "unicorn"
+                    },
+                    {
+                        "Name": "MaterialCom/HSV",
+                        "Type": "vectore3",
+                        "MaterialCom/HSV": [1.0, 1.0, 1.0]
+                    }
+                ]
+            }
+        ]
+    },
+    "4": {
+        "Name": "Lights0",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [0.0, 13.430000305175782, 0.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [3.390000104904175, 4.0, 4.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [1.0, -1.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "LightCom",
+                "Properties": [
+                    {
+                        "Name": "LightCom/Light Type",
+                        "Type": "int",
+                        "LightCom/Light Type": 1
+                    },
+                    {
+                        "Name": "LightCom/direction",
+                        "Type": "vectore3",
+                        "LightCom/direction": [1.0, -1.0, 0.0]
+                    },
+                    {
+                        "Name": "LightCom/ambient",
+                        "Type": "vectore3",
+                        "LightCom/ambient": [0.20000000298023225, 0.20000000298023225, 0.20000000298023225]
+                    },
+                    {
+                        "Name": "LightCom/diffuse",
+                        "Type": "vectore3",
+                        "LightCom/diffuse": [0.20000000298023225, 0.20000000298023225, 0.20000000298023225]
+                    },
+                    {
+                        "Name": "LightCom/specular",
+                        "Type": "vectore3",
+                        "LightCom/specular": [0.10000000149011612, 0.10000000149011612, 0.10000000149011612]
+                    },
+                    {
+                        "Name": "LightCom/position",
+                        "Type": "vectore3",
+                        "LightCom/position": [0.0, 13.430000305175782, 0.0]
+                    },
+                    {
+                        "Name": "LightCom/constant",
+                        "Type": "float",
+                        "LightCom/constant": 1.0
+                    },
+                    {
+                        "Name": "LightCom/linear",
+                        "Type": "float",
+                        "LightCom/linear": 0.09000000357627869
+                    },
+                    {
+                        "Name": "LightCom/quadratic",
+                        "Type": "float",
+                        "LightCom/quadratic": 0.03200000151991844
+                    },
+                    {
+                        "Name": "LightCom/cutOff",
+                        "Type": "float",
+                        "LightCom/cutOff": 0.9762960076332092
+                    },
+                    {
+                        "Name": "LightCom/outerCutOff",
+                        "Type": "float",
+                        "LightCom/outerCutOff": 0.9659258127212524
+                    }
+                ]
+            }
+        ]
+    },
+    "5": {
+        "Name": "tes",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [0.0, 4.639999866485596, 5.447800636291504]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [2.0, 2.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": 1.0
+                    },
+                    {
+                        "Name": "MaterialCom/colour",
+                        "Type": "vectore3",
+                        "MaterialCom/colour": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "default"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "forward_shader"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "none"
+                    },
+                    {
+                        "Name": "MaterialCom/HSV",
+                        "Type": "vectore3",
+                        "MaterialCom/HSV": [1.0, 1.0, 1.0]
+                    }
+                ]
+            }
+        ]
+    },
+    "6": {
+        "Name": "tes 2",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [2.630000114440918, 1.0800000429153443, 8.479999542236329]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [2.0, 2.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": 1.0
+                    },
+                    {
+                        "Name": "MaterialCom/colour",
+                        "Type": "vectore3",
+                        "MaterialCom/colour": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "default"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "forward_shader"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "UI_HealthBar_color"
+                    },
+                    {
+                        "Name": "MaterialCom/HSV",
+                        "Type": "vectore3",
+                        "MaterialCom/HSV": [1.0, 1.0, 1.0]
+                    }
+                ]
+            }
+        ]
+    },
+    "7": {
+        "Name": "UI_Health_UI",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [-114.97000122070313, -79.52999877929688, 0.5]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [120.0, 120.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "SpriteCom",
+                "Properties": [
+                    {
+                        "Name": "SpriteCom/SpriteName",
+                        "Type": "string",
+                        "SpriteCom/SpriteName": "UI_HealthBar_UI"
+                    },
+                    {
+                        "Name": "SpriteCom/Alpha Value",
+                        "Type": "float",
+                        "SpriteCom/Alpha Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Brightness Value",
+                        "Type": "float",
+                        "SpriteCom/Brightness Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/bar Value",
+                        "Type": "float",
+                        "SpriteCom/bar Value": 0.0
+                    },
+                    {
+                        "Name": "SpriteCom/Draw Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Draw Sprite": true
+                    }
+                ]
+            }
+        ]
+    },
+    "8": {
+        "Name": "UI_OBJ_Board",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [137.0, 62.0, 0.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [150.0, 150.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "SpriteCom",
+                "Properties": [
+                    {
+                        "Name": "SpriteCom/SpriteName",
+                        "Type": "string",
+                        "SpriteCom/SpriteName": "UI_Objective_List"
+                    },
+                    {
+                        "Name": "SpriteCom/Alpha Value",
+                        "Type": "float",
+                        "SpriteCom/Alpha Value": 0.8500000238418579
+                    },
+                    {
+                        "Name": "SpriteCom/Brightness Value",
+                        "Type": "float",
+                        "SpriteCom/Brightness Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/bar Value",
+                        "Type": "float",
+                        "SpriteCom/bar Value": 0.0
+                    },
+                    {
+                        "Name": "SpriteCom/Draw Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Draw Sprite": true
+                    }
+                ]
+            }
+        ]
+    },
+    "9": {
+        "Name": "UI_OBJ_Overload",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [137.0, 62.0, 0.10000000149011612]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [150.0, 150.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "SpriteCom",
+                "Properties": [
+                    {
+                        "Name": "SpriteCom/SpriteName",
+                        "Type": "string",
+                        "SpriteCom/SpriteName": "UI_Destroy_Generator_Task"
+                    },
+                    {
+                        "Name": "SpriteCom/Alpha Value",
+                        "Type": "float",
+                        "SpriteCom/Alpha Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Brightness Value",
+                        "Type": "float",
+                        "SpriteCom/Brightness Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/bar Value",
+                        "Type": "float",
+                        "SpriteCom/bar Value": 0.0
+                    },
+                    {
+                        "Name": "SpriteCom/Draw Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Draw Sprite": true
+                    }
+                ]
+            }
+        ]
+    },
+    "10": {
+        "Name": "UI_Weapon_Pistol",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": ["Weapon_Pistol"],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [130.0, -89.0, 0.699999988079071]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [200.0, 200.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "SpriteCom",
+                "Properties": [
+                    {
+                        "Name": "SpriteCom/SpriteName",
+                        "Type": "string",
+                        "SpriteCom/SpriteName": "UI_PistolWeapon"
+                    },
+                    {
+                        "Name": "SpriteCom/Alpha Value",
+                        "Type": "float",
+                        "SpriteCom/Alpha Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Brightness Value",
+                        "Type": "float",
+                        "SpriteCom/Brightness Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/bar Value",
+                        "Type": "float",
+                        "SpriteCom/bar Value": 0.0
+                    },
+                    {
+                        "Name": "SpriteCom/Draw Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Draw Sprite": true
+                    }
+                ]
+            }
+        ]
+    },
+    "11": {
+        "Name": "UI_Weapon_Laser",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": ["Weapon_Laser"],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [130.0, -89.0, 0.6899999976158142]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [200.0, 200.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "SpriteCom",
+                "Properties": [
+                    {
+                        "Name": "SpriteCom/SpriteName",
+                        "Type": "string",
+                        "SpriteCom/SpriteName": "UI_LaserWeapon"
+                    },
+                    {
+                        "Name": "SpriteCom/Alpha Value",
+                        "Type": "float",
+                        "SpriteCom/Alpha Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Brightness Value",
+                        "Type": "float",
+                        "SpriteCom/Brightness Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/bar Value",
+                        "Type": "float",
+                        "SpriteCom/bar Value": 0.0
+                    },
+                    {
+                        "Name": "SpriteCom/Draw Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Draw Sprite": true
+                    }
+                ]
+            }
+        ]
+    },
+    "12": {
+        "Name": "UI_Weapon_Rocket",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": ["Weapon_Rocket"],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [130.0, -89.0, 0.6890000104904175]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [200.0, 200.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "SpriteCom",
+                "Properties": [
+                    {
+                        "Name": "SpriteCom/SpriteName",
+                        "Type": "string",
+                        "SpriteCom/SpriteName": "UI_RocketWeapon"
+                    },
+                    {
+                        "Name": "SpriteCom/Alpha Value",
+                        "Type": "float",
+                        "SpriteCom/Alpha Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Brightness Value",
+                        "Type": "float",
+                        "SpriteCom/Brightness Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/bar Value",
+                        "Type": "float",
+                        "SpriteCom/bar Value": 0.0
+                    },
+                    {
+                        "Name": "SpriteCom/Draw Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Draw Sprite": true
+                    }
+                ]
+            }
+        ]
+    },
+    "13": {
+        "Name": "UI_Health_Color",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": ["U_Health_Colour"],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [-114.97000122070313, -79.52999877929688, 0.49000000953674319]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [120.0, 120.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "SpriteCom",
+                "Properties": [
+                    {
+                        "Name": "SpriteCom/SpriteName",
+                        "Type": "string",
+                        "SpriteCom/SpriteName": "UI_HealthBar_color"
+                    },
+                    {
+                        "Name": "SpriteCom/Alpha Value",
+                        "Type": "float",
+                        "SpriteCom/Alpha Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Brightness Value",
+                        "Type": "float",
+                        "SpriteCom/Brightness Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/bar Value",
+                        "Type": "float",
+                        "SpriteCom/bar Value": 60.0
+                    },
+                    {
+                        "Name": "SpriteCom/Draw Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Draw Sprite": true
+                    }
+                ]
+            }
+        ]
+    },
+    "14": {
+        "Name": "UI_PowerUp",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [-114.97000122070313, -79.52999877929688, 0.47999998927116396]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [120.0, 120.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "SpriteCom",
+                "Properties": [
+                    {
+                        "Name": "SpriteCom/SpriteName",
+                        "Type": "string",
+                        "SpriteCom/SpriteName": "UI_EmptyPowerBar"
+                    },
+                    {
+                        "Name": "SpriteCom/Alpha Value",
+                        "Type": "float",
+                        "SpriteCom/Alpha Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Brightness Value",
+                        "Type": "float",
+                        "SpriteCom/Brightness Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/bar Value",
+                        "Type": "float",
+                        "SpriteCom/bar Value": 0.0
+                    },
+                    {
+                        "Name": "SpriteCom/Draw Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Draw Sprite": true
+                    }
+                ]
+            }
+        ]
+    },
+    "15": {
+        "Name": "UI_PowerUp_Colour",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": ["U_Power_Colour"],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [-114.97000122070313, -79.52999877929688, 0.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [120.0, 120.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "SpriteCom",
+                "Properties": [
+                    {
+                        "Name": "SpriteCom/SpriteName",
+                        "Type": "string",
+                        "SpriteCom/SpriteName": "UI_Power"
+                    },
+                    {
+                        "Name": "SpriteCom/Alpha Value",
+                        "Type": "float",
+                        "SpriteCom/Alpha Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Brightness Value",
+                        "Type": "float",
+                        "SpriteCom/Brightness Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/bar Value",
+                        "Type": "float",
+                        "SpriteCom/bar Value": 60.0
+                    },
+                    {
+                        "Name": "SpriteCom/Draw Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Draw Sprite": true
+                    }
+                ]
+            }
+        ]
+    },
+    "16": {
+        "Name": "UI_PowerUP_Max",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": ["U_Power_Max"],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [-114.97000122070313, -79.52999877929688, 0.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [120.0, 120.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "SpriteCom",
+                "Properties": [
+                    {
+                        "Name": "SpriteCom/SpriteName",
+                        "Type": "string",
+                        "SpriteCom/SpriteName": "UI_MAX"
+                    },
+                    {
+                        "Name": "SpriteCom/Alpha Value",
+                        "Type": "float",
+                        "SpriteCom/Alpha Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/Brightness Value",
+                        "Type": "float",
+                        "SpriteCom/Brightness Value": 1.0
+                    },
+                    {
+                        "Name": "SpriteCom/bar Value",
+                        "Type": "float",
+                        "SpriteCom/bar Value": 0.0
+                    },
+                    {
+                        "Name": "SpriteCom/Draw Sprite",
+                        "Type": "bool",
+                        "SpriteCom/Draw Sprite": false
+                    }
+                ]
+            }
+        ]
+    }
+}

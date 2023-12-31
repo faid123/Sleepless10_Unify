@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>$(SolutionDir)lib\glew-2.1.0\include;$(SolutionDir)lib\glfw-3.3.2.bin.WIN64\include;$(SolutionDir)lib\glm-0.9.9.7;$(SolutionDir)lib\imgui-docking;$(SolutionDir)lib\ImGuizmo;$(SolutionDir)shaders;$(SolutionDir)scenes/tutorial-4.scn;$(SolutionDir)meshes;$(SolutionDir)lib\FreeImage3180Win32Win64\FreeImage\Dist\_x64;$(SolutionDir)lib\w_freetype;$(SolutionDir)lib\PhysX\inc;$(SolutionDir)lib\FMOD\inc;$(SolutionDir)lib\properties\src;$(ProjectDir)BasedEngine\;$(ProjectDir)BasedEngine\ECS;$(SolutionDir)\lib\assimp-4.0.1\include\;$(ProjectDir)\BasedEngine\Graphics\Window\Input;$(ProjectDir)\BasedEngine\MathLib;$(SolutionDir)lib\Lua\include;$(SolutionDir)lib\sol\include;$(SolutionDir)lib\SOIL;$(SolutionDir)lib\FFmpeg;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib\glfw-3.3.2.bin.WIN64\lib-vc2019;$(SolutionDir)lib\glew-2.1.0\lib\_x64;$(SolutionDir)lib\FreeImage3180Win32Win64\FreeImage\Dist\_x64;$(SolutionDir)lib\w_freetype\_Release\;$(SolutionDir)lib\PhysX\_release;$(SolutionDir)lib\FMOD\lib\_x64;$(SolutionDir)lib\Lua\lib;$(SolutionDir)lib\SOIL\lib\_Release;$(SolutionDir)lib\FFmpeg\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\bin\$(Configuration)-$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\.tmp\$(Configuration)-$(Platform)\</IntDir>
+    <_PropertySheetDisplayName>_release</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3dll.lib;FreeImage.lib;freetype.lib;PhysX_64.lib;LowLevel_static_64.lib;LowLevelAABB_static_64.lib;LowLevelDynamics_static_64.lib;PhysXCharacterKinematic_static_64.lib;PhysXCommon_64.lib;PhysXCooking_64.lib;PhysXExtensions_static_64.lib;PhysXFoundation_64.lib;PhysXPvdSDK_static_64.lib;PhysXTask_static_64.lib;PhysXVehicle_static_64.lib;SceneQuery_static_64.lib;SimulationController_static_64.lib;SnippetRender_static_64.lib;SnippetUtils_static_64.lib;fmod_vc.lib;assimp-vc142-mtd.lib;lua54.lib;SOIL.lib;aom.lib;aom_static.lib;ass.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2.lib;charset.lib;dav1d.lib;fontconfig.lib;fribidi.lib;GlU32.Lib;harfbuzz.lib;harfbuzz-subset.lib;iconv.lib;ilbc.lib;intl.lib;json-c.lib;libexpat.lib;libmp3lame.lib;libpng16.lib;libspeex.lib;libwebpmux.lib;libxml2.lib;lzma.lib;mbedcrypto.lib;mbedtls.lib;mbedx509.lib;modplug.lib;ogg.lib;OpenCL.lib;OpenGL32.Lib;openh264.lib;openjp2.lib;opus.lib;pthreadVC3.lib;pthreadVCE3.lib;pthreadVSE3.lib;SDL2.lib;snappy.lib;soxr.lib;ssh.lib;swresample.lib;swscale.lib;theora.lib;theoradec.lib;theoraenc.lib;vorbis.lib;vorbisenc.lib;vorbisfile.lib;vpx.lib;webp.lib;webpdecoder.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;MSVCRTD;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)lib\FreeImage3180Win32Win64\FreeImage\Dist\_x64\FreeImage.dll" "$(TargetDir)FreeImage.dll" /Y
+copy "$(SolutionDir)lib\FMOD\lib\_x64\fmod.dll" "$(TargetDir)fmod.dll" /Y
+copy "$(SolutionDir)lib\FMOD\lib\_x64\fmodL.dll" "$(TargetDir)fmod.dll" /Y
+copy "$(SolutionDir)lib\freetype\lib\freetype.dll" "$(TargetDir)freetype.dll" /Y
+copy "$(SolutionDir)lib\PhysX\_release\glut32.dll" "$(TargetDir)glut32.dll" /Y
+copy "$(SolutionDir)lib\PhysX\_release\PhysX_64.dll" "$(TargetDir)PhysX_64.dll" /Y
+copy "$(SolutionDir)lib\PhysX\_release\PhysXCommon_64.dll" "$(TargetDir)PhysXCommon_64.dll" /Y
+copy "$(SolutionDir)lib\PhysX\_release\PhysXCooking_64.dll" "$(TargetDir)PhysXCooking_64.dll" /Y
+copy "$(SolutionDir)lib\PhysX\_release\PhysXDevice64.dll" "$(TargetDir)PhysXDevice64.dll" /Y
+copy "$(SolutionDir)lib\PhysX\_release\PhysXFoundation_64.dll" "$(TargetDir)PhysXFoundation_64.dll" /Y
+copy "$(SolutionDir)lib\PhysX\_release\PhysXGpu_64.dll" "$(TargetDir)PhysXGpu_64.dll" /Y
+copy "$(SolutionDir)lib\PhysX\_release\PhysXGpu_64.dll" "$(TargetDir)PhysXGpu_64.dll" /Y
+copy "$(SolutionDir)lib\FMOD\lib\_x64\fmod.dll" "$(TargetDir)fmod.dll" /Y
+copy "$(SolutionDir)lib\glfw-3.3.2.bin.WIN64\lib-vc2019\assimp-vc140-mt.dll" "$(TargetDir)assimp-vc140-mt.dll" /Y
+copy "$(SolutionDir)lib\glfw-3.3.2.bin.WIN64\lib-vc2019\glfw3.dll" "$(TargetDir)glfw3.dll" /Y
+copy "$(SolutionDir)lib\glew-2.1.0\dll\_x64\glew32.dll" "$(TargetDir)glew32.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\aom.dll" "$(TargetDir)aom.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\ass.dll" "$(TargetDir)ass.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\avcodec-59.dll" "$(TargetDir)avcodec-59.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\avdevice-59.dll" "$(TargetDir)avdevice-59.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\avfilter-8.dll" "$(TargetDir)avfilter-8.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\avformat-59.dll" "$(TargetDir)avformat-59.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\avutil-57.dll" "$(TargetDir)avutil-57.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\brotlicommon.dll" "$(TargetDir)brotlicommon.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\brotlidec.dll" "$(TargetDir)brotlidec.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\brotlienc.dll" "$(TargetDir)brotlienc.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\bz2.dll" "$(TargetDir)bz2.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\charset-1.dll" "$(TargetDir)charset-1.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\dav1d.dll" "$(TargetDir)dav1d.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\fontconfig-1.dll" "$(TargetDir)fontconfig-1.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\freetype.dll" "$(TargetDir)freetype.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\fribidi-0.dll" "$(TargetDir)fribidi-0.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\harfbuzz.dll" "$(TargetDir)harfbuzz.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\harfbuzz-subset.dll" "$(TargetDir)harfbuzz-subset.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\iconv-2.dll" "$(TargetDir)iconv-2.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\ilbc.dll" "$(TargetDir)ilbc.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\intl-8.dll" "$(TargetDir)intl-8.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\json-c.dll" "$(TargetDir)json-c.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\libexpat.dll" "$(TargetDir)libexpat.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\libmp3lame.dll" "$(TargetDir)libmp3lame.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\libpng16.dll" "$(TargetDir)libpng16.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\libspeex.dll" "$(TargetDir)libspeex.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\libwebpmux.dll" "$(TargetDir)libwebpmux.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\libxml2.dll" "$(TargetDir)libxml2.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\lzma.dll" "$(TargetDir)lzma.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\modplug.dll" "$(TargetDir)modplug.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\ogg.dll" "$(TargetDir)ogg.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\OpenCL.dll" "$(TargetDir)OpenCL.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\openh264-6.dll" "$(TargetDir)openh264-6.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\openjp2.dll" "$(TargetDir)openjp2.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\opus.dll" "$(TargetDir)opus.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\pthreadVC3.dll" "$(TargetDir)pthreadVC3.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\pthreadVCE3.dll" "$(TargetDir)pthreadVCE3.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\pthreadVSE3.dll" "$(TargetDir)pthreadVSE3.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\SDL2.dll" "$(TargetDir)SDL2.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\snappy.dll" "$(TargetDir)snappy.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\soxr.dll" "$(TargetDir)soxr.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\ssh.dll" "$(TargetDir)ssh.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\swresample-4.dll" "$(TargetDir)swresample-4.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\swscale-6.dll" "$(TargetDir)swscale-6.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\theora.dll" "$(TargetDir)theora.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\theoradec.dll" "$(TargetDir)theoradec.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\theoraenc.dll" "$(TargetDir)theoraenc.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\vorbis.dll" "$(TargetDir)vorbis.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\vorbisenc.dll" "$(TargetDir)vorbisenc.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\vorbisfile.dll" "$(TargetDir)vorbisfile.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\webp.dll" "$(TargetDir)webp.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\webpdecoder.dll" "$(TargetDir)webpdecoder.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\webpdemux.dll" "$(TargetDir)webpdemux.dll" /Y
+copy "$(SolutionDir)lib\FFmpeg\lib\zlib1.dll" "$(TargetDir)zlib1.dll" /Y
+</Command>
+    </PostBuildEvent>
+    <ClCompile>
+      <PreprocessorDefinitions>GLFW_DLL;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>$(ProjectDir)BasedEngine\ECS;$(ProjectDir)BasedEngine\;$(ProjectDir)\BasedEngine\Graphics\Window\Input;$(SolutionDir)\lib\assimp-4.0.1\include\</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

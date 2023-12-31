@@ -1,0 +1,11 @@
+{
+    "SoundsContainer": [
+        {
+            "SoundName": "Game_BGfull",
+            "Volume": 1.0,
+            "Muted": false,
+            "Loop": -1,
+            "Type": "SFX"
+        }
+    ]
+}

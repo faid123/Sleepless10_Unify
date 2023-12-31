@@ -1,0 +1,216 @@
+{
+    "1": {
+        "ID": 1,
+        "Name": "Prefab_Player",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": ["Player"],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [0.0, 8.529489517211914, 52.08599853515625]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [0.10000000149011612, 0.10000000149011612, 0.10000000149011612]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "CameraCom",
+                "Properties": [
+                    {
+                        "Name": "CameraCom/_pos",
+                        "Type": "vectore3",
+                        "CameraCom/_pos": [2.5, 9.529489517211914, 60.08599853515625]
+                    },
+                    {
+                        "Name": "CameraCom/_up",
+                        "Type": "vectore3",
+                        "CameraCom/_up": [0.0, 1.0, 0.0]
+                    },
+                    {
+                        "Name": "CameraCom/_displaceRight",
+                        "Type": "float",
+                        "CameraCom/_displaceRight": 2.5
+                    },
+                    {
+                        "Name": "CameraCom/_displaceUp",
+                        "Type": "float",
+                        "CameraCom/_displaceUp": 1.0
+                    },
+                    {
+                        "Name": "CameraCom/_displaceFor",
+                        "Type": "float",
+                        "CameraCom/_displaceFor": 8.0
+                    },
+                    {
+                        "Name": "CameraCom/_movementSpeed",
+                        "Type": "float",
+                        "CameraCom/_movementSpeed": 1.0
+                    },
+                    {
+                        "Name": "CameraCom/_rotation",
+                        "Type": "vectore3",
+                        "CameraCom/_rotation": [0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "CameraCom/_m_fov",
+                        "Type": "float",
+                        "CameraCom/_m_fov": 45.0
+                    },
+                    {
+                        "Name": "CameraCom/_m_near",
+                        "Type": "float",
+                        "CameraCom/_m_near": 1.0
+                    },
+                    {
+                        "Name": "CameraCom/_m_far",
+                        "Type": "float",
+                        "CameraCom/_m_far": 300.0
+                    },
+                    {
+                        "Name": "CameraCom/_aggressive",
+                        "Type": "float",
+                        "CameraCom/_aggressive": 10.0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "RigidDynamicCom",
+                "Properties": [
+                    {
+                        "Name": "RigidDynamicCom/rigidPos",
+                        "Type": "vectore3",
+                        "RigidDynamicCom/rigidPos": [0.0, 8.529489517211914, 52.08599853515625]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/rigidScale",
+                        "Type": "vectore3",
+                        "RigidDynamicCom/rigidScale": [1.5, 4.0, 3.0]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/rigidRot",
+                        "Type": "quat",
+                        "RigidDynamicCom/rigidRot": [0.0, 0.0, 0.0, 1.0]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/mass",
+                        "Type": "float",
+                        "RigidDynamicCom/mass": 10.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/staticFriction",
+                        "Type": "float",
+                        "RigidDynamicCom/staticFriction": 0.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/dynamicFriction",
+                        "Type": "float",
+                        "RigidDynamicCom/dynamicFriction": 0.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/restitution",
+                        "Type": "float",
+                        "RigidDynamicCom/restitution": 0.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/linearDamp",
+                        "Type": "float",
+                        "RigidDynamicCom/linearDamp": 5.0
+                    },
+                    {
+                        "Name": "RigidDynamicCom/angularDamp",
+                        "Type": "float",
+                        "RigidDynamicCom/angularDamp": 0.0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": -107374176.0
+                    },
+                    {
+                        "Name": "MaterialCom/colour",
+                        "Type": "vectore3",
+                        "MaterialCom/colour": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "Unicorn_Bone"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "default"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "unicorn"
+                    },
+                    {
+                        "Name": "MaterialCom/HSV",
+                        "Type": "vectore3",
+                        "MaterialCom/HSV": [1.0, 1.0, 1.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "uaScriptCom",
+                "Properties": [
+                    {
+                        "Name": "LuaScriptCom/mScriptPath",
+                        "Type": "string",
+                        "LuaScriptCom/mScriptPath": ".//Resources//Script\\PlayerBehavior.lua"
+                    }
+                ]
+            },
+            {
+                "ComponentType": "AudioSrcCom",
+                "Properties": [
+                    {
+                        "Name": "AudioSrcCom/volume",
+                        "Type": "float",
+                        "AudioSrcCom/volume": 1.0
+                    },
+                    {
+                        "Name": "AudioSrcCom/mute",
+                        "Type": "bool",
+                        "AudioSrcCom/mute": false
+                    }
+                ]
+            },
+            {
+                "ComponentType": "AnimationCom",
+                "Properties": [
+                    {
+                        "Name": "AnimationCom/currentAnim",
+                        "Type": "int",
+                        "AnimationCom/currentAnim": 0
+                    },
+                    {
+                        "Name": "AnimationCom/speed",
+                        "Type": "float",
+                        "AnimationCom/speed": 20.0
+                    }
+                ]
+            }
+        ]
+    }
+}

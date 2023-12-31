@@ -1,0 +1,5 @@
+1) not memory leak
+2) not warning or errors
+3) the thing that the other is working with the merge and test some of the other fucntion that is in place
+4) main do final test on main (if anything just revert back)
+5) naming convention...

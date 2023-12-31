@@ -1,0 +1,111 @@
+{
+    "146": {
+        "ID": 146,
+        "Name": "Prefab_RiotShield",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": ["RiotShield"],
+      "Components": [
+        {
+          "ComponentType": "TransformCom",
+          "Properties": [
+            {
+              "Name": "TransformCom/pos",
+              "Type": "vectore3",
+              "TransformCom/pos": [ 39.74791717529297, 3.0, -31.839818954467775 ]
+            },
+            {
+              "Name": "TransformCom/scale",
+              "Type": "vectore3",
+              "TransformCom/scale": [ 0.10000000149011612, 0.10000000149011612, 0.10000000149011612 ]
+            },
+            {
+              "Name": "TransformCom/rotate",
+              "Type": "vectore3",
+              "TransformCom/rotate": [ 0.0, 0.0, 0.0 ]
+            }
+          ]
+        },
+        {
+          "ComponentType": "RigidStaticCom",
+          "Properties": [
+            {
+              "Name": "RigidStaticCom/rigidPos",
+              "Type": "vectore3",
+              "RigidStaticCom/rigidPos": [ 39.74791717529297, 3.0, -31.839818954467775 ]
+            },
+            {
+              "Name": "RigidStaticCom/rigidScale",
+              "Type": "vectore3",
+              "RigidStaticCom/rigidScale": [ 5.0, 3.259999990463257, 2.25 ]
+            },
+            {
+              "Name": "RigidStaticCom/rigidRot",
+              "Type": "quat",
+              "RigidStaticCom/rigidRot": [ 0.0, 0.0, 0.0, 1.0 ]
+            },
+            {
+              "Name": "RigidStaticCom/staticFriction",
+              "Type": "float",
+              "RigidStaticCom/staticFriction": 0.0
+            },
+            {
+              "Name": "RigidStaticCom/dynamicFriction",
+              "Type": "float",
+              "RigidStaticCom/dynamicFriction": 0.0
+            },
+            {
+              "Name": "RigidStaticCom/restitution",
+              "Type": "float",
+              "RigidStaticCom/restitution": 0.0
+            }
+          ]
+        },
+        {
+          "ComponentType": "MaterialCom",
+          "Properties": [
+            {
+              "Name": "MaterialCom/_alpha",
+              "Type": "float",
+              "MaterialCom/_alpha": 1.0
+            },
+            {
+              "Name": "MaterialCom/colour",
+              "Type": "vectore3",
+              "MaterialCom/colour": [ 1.0, 1.0, 1.0 ]
+            },
+            {
+              "Name": "MaterialCom/model",
+              "Type": "string",
+              "MaterialCom/model": "Shield"
+            },
+            {
+              "Name": "MaterialCom/shader",
+              "Type": "string",
+              "MaterialCom/shader": "forward_shader"
+            },
+            {
+              "Name": "MaterialCom/texture",
+              "Type": "string",
+              "MaterialCom/texture": "Shield"
+            },
+            {
+              "Name": "MaterialCom/HSV",
+              "Type": "vectore3",
+              "MaterialCom/HSV": [ 1.0, 1.0, 1.0 ]
+            }
+          ]
+        },
+        {
+          "ComponentType": "uaScriptCom",
+          "Properties": [
+            {
+              "Name": "LuaScriptCom/mScriptPath",
+              "Type": "string",
+              "LuaScriptCom/mScriptPath": ".//Resources//Script\\RiotShieldBehavior.lua"
+            }
+          ]
+        }
+      ]
+    }
+}

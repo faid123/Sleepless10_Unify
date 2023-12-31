@@ -1,0 +1,121 @@
+{
+    "522": {
+        "ID": 522,
+        "Name": "Prefab_ParticleDispenser",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [0.10000000149011612, 0.10000000149011612, 0.10000000149011612]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": 1.0
+                    },
+                    {
+                        "Name": "MaterialCom/colour",
+                        "Type": "vectore3",
+                        "MaterialCom/colour": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "default"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "forward_shader"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "none"
+                    },
+                    {
+                        "Name": "MaterialCom/HSV",
+                        "Type": "vectore3",
+                        "MaterialCom/HSV": [1.0, 1.0, 1.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "uaScriptCom",
+                "Properties": [
+                    {
+                        "Name": "LuaScriptCom/mScriptPath",
+                        "Type": "string",
+                        "LuaScriptCom/mScriptPath": "../GAM300/Resources/Script/ParticleDispenser.lua"
+                    }
+                ]
+            },
+            {
+                "ComponentType": "EmitterCom",
+                "Properties": [
+                    {
+                        "Name": "EmitterCom/velocityVariation",
+                        "Type": "vectore3",
+                        "EmitterCom/velocityVariation": [0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "EmitterCom/colorBegin",
+                        "Type": "vectore4",
+                        "EmitterCom/colorBegin": [0.0, 0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "EmitterCom/colorEnd",
+                        "Type": "vectore4",
+                        "EmitterCom/colorEnd": [0.0, 0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "EmitterCom/sizeBegin",
+                        "Type": "float",
+                        "EmitterCom/sizeBegin": 0.0
+                    },
+                    {
+                        "Name": "EmitterCom/sizeEnd",
+                        "Type": "float",
+                        "EmitterCom/sizeEnd": 0.0
+                    },
+                    {
+                        "Name": "EmitterCom/sizeVariation",
+                        "Type": "float",
+                        "EmitterCom/sizeVariation": 0.0
+                    },
+                    {
+                        "Name": "EmitterCom/lifeTime",
+                        "Type": "float",
+                        "EmitterCom/lifeTime": 0.0
+                    },
+                    {
+                        "Name": "EmitterCom/emit",
+                        "Type": "bool",
+                        "EmitterCom/emit": true
+                    }
+                ]
+            }
+        ]
+    }
+}

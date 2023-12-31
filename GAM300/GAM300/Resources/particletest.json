@@ -1,0 +1,724 @@
+{
+    "0": {
+        "ID": 0,
+        "Name": "Camera",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "CameraCom",
+                "Properties": [
+                    {
+                        "Name": "CameraCom/_pos",
+                        "Type": "vectore3",
+                        "CameraCom/_pos": [0.0, 10.0, 20.0]
+                    },
+                    {
+                        "Name": "CameraCom/_up",
+                        "Type": "vectore3",
+                        "CameraCom/_up": [0.0, 1.0, 0.0]
+                    },
+                    {
+                        "Name": "CameraCom/_m_fov",
+                        "Type": "float",
+                        "CameraCom/_m_fov": 45.0
+                    },
+                    {
+                        "Name": "CameraCom/_m_near",
+                        "Type": "float",
+                        "CameraCom/_m_near": 1.0
+                    },
+                    {
+                        "Name": "CameraCom/_m_far",
+                        "Type": "float",
+                        "CameraCom/_m_far": 200.0
+                    }
+                ]
+            }
+        ]
+    },
+    "1": {
+        "ID": 1,
+        "Name": "Player",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [0.0, 15.0, -15.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [2.0, 2.0, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "TransformCom/state",
+                        "Type": "int",
+                        "TransformCom/state": 2
+                    }
+                ]
+            },
+            {
+                "ComponentType": "CameraCom",
+                "Properties": [
+                    {
+                        "Name": "CameraCom/_pos",
+                        "Type": "vectore3",
+                        "CameraCom/_pos": [0.0, 15.0, -15.0]
+                    },
+                    {
+                        "Name": "CameraCom/_up",
+                        "Type": "vectore3",
+                        "CameraCom/_up": [0.0, 1.0, 0.0]
+                    },
+                    {
+                        "Name": "CameraCom/_m_fov",
+                        "Type": "float",
+                        "CameraCom/_m_fov": 45.0
+                    },
+                    {
+                        "Name": "CameraCom/_m_near",
+                        "Type": "float",
+                        "CameraCom/_m_near": 1.0
+                    },
+                    {
+                        "Name": "CameraCom/_m_far",
+                        "Type": "float",
+                        "CameraCom/_m_far": 200.0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "RigidDynamicCom",
+                "Properties": [
+                    {
+                        "Name": "RigidDynamicCom/pos",
+                        "Type": "vectore3",
+                        "RigidDynamicCom/pos": [0.0, 15.0, -15.0]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/scale",
+                        "Type": "vectore3",
+                        "RigidDynamicCom/scale": [2.0, 2.0, 2.0]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/rot",
+                        "Type": "quat",
+                        "RigidDynamicCom/rot": [0.0, 0.0, 0.0, 1.0]
+                    },
+                    {
+                        "Name": "RigidDynamicCom/mass",
+                        "Type": "float",
+                        "RigidDynamicCom/mass": 10.0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": -107374176.0
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "default"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "default"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "unicorn2.dds"
+                    }
+                ]
+            },
+            {
+                "ComponentType": "EmitterCom",
+                "Properties": [
+                    {
+                        "Name": "EmitterCom/velocityVariation",
+                        "Type": "vectore3",
+                        "EmitterCom/velocityVariation": [0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "EmitterCom/colorBegin",
+                        "Type": "vectore4",
+                        "EmitterCom/colorBegin": [0.0, 0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "EmitterCom/colorEnd",
+                        "Type": "vectore4",
+                        "EmitterCom/colorEnd": [0.0, 0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "EmitterCom/sizeBegin",
+                        "Type": "float",
+                        "EmitterCom/sizeBegin": 0.0
+                    },
+                    {
+                        "Name": "EmitterCom/sizeEnd",
+                        "Type": "float",
+                        "EmitterCom/sizeEnd": 0.0
+                    },
+                    {
+                        "Name": "EmitterCom/sizeVariation",
+                        "Type": "float",
+                        "EmitterCom/sizeVariation": 0.0
+                    },
+                    {
+                        "Name": "EmitterCom/lifeTime",
+                        "Type": "float",
+                        "EmitterCom/lifeTime": 1.0
+                    },
+                    {
+                        "Name": "EmitterCom/emit",
+                        "Type": "bool",
+                        "EmitterCom/emit": false
+                    }
+                ]
+            }
+        ]
+    },
+    "2": {
+        "ID": 2,
+        "Name": "Floor",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [0.0, 0.0, -15.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [100.0, 1.0, 100.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "TransformCom/state",
+                        "Type": "int",
+                        "TransformCom/state": 1
+                    }
+                ]
+            },
+            {
+                "ComponentType": "RigidStaticCom",
+                "Properties": [
+                    {
+                        "Name": "RigidStaticCom/pos",
+                        "Type": "vectore3",
+                        "RigidStaticCom/pos": [0.0, 0.0, -15.0]
+                    },
+                    {
+                        "Name": "RigidStaticCom/scale",
+                        "Type": "vectore3",
+                        "RigidStaticCom/scale": [100.0, 1.0, 100.0]
+                    },
+                    {
+                        "Name": "RigidStaticCom/rot",
+                        "Type": "quat",
+                        "RigidStaticCom/rot": [0.0, 0.0, 0.0, 1.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": -107374176.0
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "default"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "default"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "none"
+                    }
+                ]
+            }
+        ]
+    },
+    "3": {
+        "ID": 3,
+        "Name": "Man",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [4.0, 20.0, -80.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [1.0, 1.0, 1.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "TransformCom/state",
+                        "Type": "int",
+                        "TransformCom/state": 0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": -107374176.0
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "unicorn"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "default"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "unicorn"
+                    }
+                ]
+            },
+            {
+                "ComponentType": "EmitterCom",
+                "Properties": [
+                    {
+                        "Name": "EmitterCom/velocityVariation",
+                        "Type": "vectore3",
+                        "EmitterCom/velocityVariation": [0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "EmitterCom/colorBegin",
+                        "Type": "vectore4",
+                        "EmitterCom/colorBegin": [0.0, 0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "EmitterCom/colorEnd",
+                        "Type": "vectore4",
+                        "EmitterCom/colorEnd": [0.0, 0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "EmitterCom/sizeBegin",
+                        "Type": "float",
+                        "EmitterCom/sizeBegin": 0.0
+                    },
+                    {
+                        "Name": "EmitterCom/sizeEnd",
+                        "Type": "float",
+                        "EmitterCom/sizeEnd": 0.0
+                    },
+                    {
+                        "Name": "EmitterCom/sizeVariation",
+                        "Type": "float",
+                        "EmitterCom/sizeVariation": 0.0
+                    },
+                    {
+                        "Name": "EmitterCom/lifeTime",
+                        "Type": "float",
+                        "EmitterCom/lifeTime": 1.0
+                    },
+                    {
+                        "Name": "EmitterCom/emit",
+                        "Type": "bool",
+                        "EmitterCom/emit": false
+                    }
+                ]
+            }
+        ]
+    },
+    "4": {
+        "ID": 4,
+        "Name": "Lights0",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [0.699999988079071, 0.20000000298023225, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [4.0, 4.0, 4.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "TransformCom/state",
+                        "Type": "int",
+                        "TransformCom/state": 0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "LightCom",
+                "Properties": [
+                    {
+                        "Name": "LightCom/direction",
+                        "Type": "vectore3",
+                        "LightCom/direction": [-0.20000000298023225, -1.0, -0.30000001192092898]
+                    },
+                    {
+                        "Name": "LightCom/ambient",
+                        "Type": "vectore3",
+                        "LightCom/ambient": [0.5, 0.5, 0.5]
+                    },
+                    {
+                        "Name": "LightCom/diffuse",
+                        "Type": "vectore3",
+                        "LightCom/diffuse": [0.4000000059604645, 0.4000000059604645, 0.4000000059604645]
+                    },
+                    {
+                        "Name": "LightCom/specular",
+                        "Type": "vectore3",
+                        "LightCom/specular": [0.5, 0.5, 0.5]
+                    },
+                    {
+                        "Name": "LightCom/position",
+                        "Type": "vectore3",
+                        "LightCom/position": [0.699999988079071, 0.20000000298023225, 2.0]
+                    },
+                    {
+                        "Name": "LightCom/constant",
+                        "Type": "float",
+                        "LightCom/constant": 1.0
+                    },
+                    {
+                        "Name": "LightCom/linear",
+                        "Type": "float",
+                        "LightCom/linear": 0.09000000357627869
+                    },
+                    {
+                        "Name": "LightCom/quadratic",
+                        "Type": "float",
+                        "LightCom/quadratic": 0.03200000151991844
+                    }
+                ]
+            }
+        ]
+    },
+    "5": {
+        "ID": 5,
+        "Name": "Lights1",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [2.299999952316284, -3.299999952316284, -4.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [4.0, 4.0, 4.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "TransformCom/state",
+                        "Type": "int",
+                        "TransformCom/state": 0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "LightCom",
+                "Properties": [
+                    {
+                        "Name": "LightCom/direction",
+                        "Type": "vectore3",
+                        "LightCom/direction": [-0.20000000298023225, -1.0, -0.30000001192092898]
+                    },
+                    {
+                        "Name": "LightCom/ambient",
+                        "Type": "vectore3",
+                        "LightCom/ambient": [0.5, 0.5, 0.5]
+                    },
+                    {
+                        "Name": "LightCom/diffuse",
+                        "Type": "vectore3",
+                        "LightCom/diffuse": [0.4000000059604645, 0.4000000059604645, 0.4000000059604645]
+                    },
+                    {
+                        "Name": "LightCom/specular",
+                        "Type": "vectore3",
+                        "LightCom/specular": [0.5, 0.5, 0.5]
+                    },
+                    {
+                        "Name": "LightCom/position",
+                        "Type": "vectore3",
+                        "LightCom/position": [2.299999952316284, -3.299999952316284, -4.0]
+                    },
+                    {
+                        "Name": "LightCom/constant",
+                        "Type": "float",
+                        "LightCom/constant": 1.0
+                    },
+                    {
+                        "Name": "LightCom/linear",
+                        "Type": "float",
+                        "LightCom/linear": 0.09000000357627869
+                    },
+                    {
+                        "Name": "LightCom/quadratic",
+                        "Type": "float",
+                        "LightCom/quadratic": 0.03200000151991844
+                    }
+                ]
+            }
+        ]
+    },
+    "6": {
+        "ID": 6,
+        "Name": "Lights2",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [-4.0, 2.0, -12.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [4.0, 4.0, 4.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "TransformCom/state",
+                        "Type": "int",
+                        "TransformCom/state": 0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "LightCom",
+                "Properties": [
+                    {
+                        "Name": "LightCom/direction",
+                        "Type": "vectore3",
+                        "LightCom/direction": [-0.20000000298023225, -1.0, -0.30000001192092898]
+                    },
+                    {
+                        "Name": "LightCom/ambient",
+                        "Type": "vectore3",
+                        "LightCom/ambient": [0.5, 0.5, 0.5]
+                    },
+                    {
+                        "Name": "LightCom/diffuse",
+                        "Type": "vectore3",
+                        "LightCom/diffuse": [0.4000000059604645, 0.4000000059604645, 0.4000000059604645]
+                    },
+                    {
+                        "Name": "LightCom/specular",
+                        "Type": "vectore3",
+                        "LightCom/specular": [0.5, 0.5, 0.5]
+                    },
+                    {
+                        "Name": "LightCom/position",
+                        "Type": "vectore3",
+                        "LightCom/position": [-4.0, 2.0, -12.0]
+                    },
+                    {
+                        "Name": "LightCom/constant",
+                        "Type": "float",
+                        "LightCom/constant": 1.0
+                    },
+                    {
+                        "Name": "LightCom/linear",
+                        "Type": "float",
+                        "LightCom/linear": 0.09000000357627869
+                    },
+                    {
+                        "Name": "LightCom/quadratic",
+                        "Type": "float",
+                        "LightCom/quadratic": 0.03200000151991844
+                    }
+                ]
+            }
+        ]
+    },
+    "7": {
+        "ID": 7,
+        "Name": "Lights3",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [0.0, 0.0, -3.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [4.0, 4.0, 4.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [0.0, 0.0, 0.0]
+                    },
+                    {
+                        "Name": "TransformCom/state",
+                        "Type": "int",
+                        "TransformCom/state": 0
+                    }
+                ]
+            },
+            {
+                "ComponentType": "LightCom",
+                "Properties": [
+                    {
+                        "Name": "LightCom/direction",
+                        "Type": "vectore3",
+                        "LightCom/direction": [-0.20000000298023225, -1.0, -0.30000001192092898]
+                    },
+                    {
+                        "Name": "LightCom/ambient",
+                        "Type": "vectore3",
+                        "LightCom/ambient": [0.5, 0.5, 0.5]
+                    },
+                    {
+                        "Name": "LightCom/diffuse",
+                        "Type": "vectore3",
+                        "LightCom/diffuse": [0.4000000059604645, 0.4000000059604645, 0.4000000059604645]
+                    },
+                    {
+                        "Name": "LightCom/specular",
+                        "Type": "vectore3",
+                        "LightCom/specular": [0.5, 0.5, 0.5]
+                    },
+                    {
+                        "Name": "LightCom/position",
+                        "Type": "vectore3",
+                        "LightCom/position": [0.0, 0.0, -3.0]
+                    },
+                    {
+                        "Name": "LightCom/constant",
+                        "Type": "float",
+                        "LightCom/constant": 1.0
+                    },
+                    {
+                        "Name": "LightCom/linear",
+                        "Type": "float",
+                        "LightCom/linear": 0.09000000357627869
+                    },
+                    {
+                        "Name": "LightCom/quadratic",
+                        "Type": "float",
+                        "LightCom/quadratic": 0.03200000151991844
+                    }
+                ]
+            },
+            {
+                "ComponentType": "MaterialCom",
+                "Properties": [
+                    {
+                        "Name": "MaterialCom/_alpha",
+                        "Type": "float",
+                        "MaterialCom/_alpha": -107374176.0
+                    },
+                    {
+                        "Name": "MaterialCom/model",
+                        "Type": "string",
+                        "MaterialCom/model": "default"
+                    },
+                    {
+                        "Name": "MaterialCom/shader",
+                        "Type": "string",
+                        "MaterialCom/shader": "forward_shader"
+                    },
+                    {
+                        "Name": "MaterialCom/texture",
+                        "Type": "string",
+                        "MaterialCom/texture": "none"
+                    }
+                ]
+            }
+        ]
+    }
+}

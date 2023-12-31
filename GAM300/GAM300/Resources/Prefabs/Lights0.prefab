@@ -1,0 +1,91 @@
+{
+    "6": {
+        "ID": 6,
+        "Name": "Prefab_Lights0",
+        "ParentID": -1,
+        "isActive": true,
+        "Tags": [],
+        "Components": [
+            {
+                "ComponentType": "TransformCom",
+                "Properties": [
+                    {
+                        "Name": "TransformCom/pos",
+                        "Type": "vectore3",
+                        "TransformCom/pos": [0.699999988079071, 0.20000000298023225, 2.0]
+                    },
+                    {
+                        "Name": "TransformCom/scale",
+                        "Type": "vectore3",
+                        "TransformCom/scale": [4.0, 4.0, 4.0]
+                    },
+                    {
+                        "Name": "TransformCom/rotate",
+                        "Type": "vectore3",
+                        "TransformCom/rotate": [1.0, -1.0, 0.0]
+                    }
+                ]
+            },
+            {
+                "ComponentType": "LightCom",
+                "Properties": [
+                    {
+                        "Name": "LightCom/Light Type",
+                        "Type": "int",
+                        "LightCom/Light Type": 1
+                    },
+                    {
+                        "Name": "LightCom/direction",
+                        "Type": "vectore3",
+                        "LightCom/direction": [1.0, -1.0, 0.0]
+                    },
+                    {
+                        "Name": "LightCom/ambient",
+                        "Type": "vectore3",
+                        "LightCom/ambient": [0.5, 0.5, 0.5]
+                    },
+                    {
+                        "Name": "LightCom/diffuse",
+                        "Type": "vectore3",
+                        "LightCom/diffuse": [0.4000000059604645, 0.4000000059604645, 0.4000000059604645]
+                    },
+                    {
+                        "Name": "LightCom/specular",
+                        "Type": "vectore3",
+                        "LightCom/specular": [0.5, 0.5, 0.5]
+                    },
+                    {
+                        "Name": "LightCom/position",
+                        "Type": "vectore3",
+                        "LightCom/position": [0.699999988079071, 0.20000000298023225, 2.0]
+                    },
+                    {
+                        "Name": "LightCom/constant",
+                        "Type": "float",
+                        "LightCom/constant": 1.0
+                    },
+                    {
+                        "Name": "LightCom/linear",
+                        "Type": "float",
+                        "LightCom/linear": 0.09000000357627869
+                    },
+                    {
+                        "Name": "LightCom/quadratic",
+                        "Type": "float",
+                        "LightCom/quadratic": 0.03200000151991844
+                    },
+                    {
+                        "Name": "LightCom/cutOff",
+                        "Type": "float",
+                        "LightCom/cutOff": 0.9762960076332092
+                    },
+                    {
+                        "Name": "LightCom/outerCutOff",
+                        "Type": "float",
+                        "LightCom/outerCutOff": 0.9659258127212524
+                    }
+                ]
+            }
+        ]
+    }
+}
